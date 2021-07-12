@@ -1,0 +1,43 @@
+<div *ngIf='data.length != 0'>
+    <table style="width: 1500px; border-collapse: collapse;" border="1px">
+        <tr style="font-weight: bold; ">
+            <td>Setence</td>
+            <td>Meaning</td>
+            <td>Grammar</td>
+            <td>Description</td>
+            <td></td>
+        </tr>
+        <tr *ngFor='let item of data'>
+            <input hidden #id value="{{item.id}}">
+            <td style="width: 300px;">
+                <a routerLink="detail/{{item.id}}">
+                    <span >{{item.firstSentence}}</span>
+                    <span [ngClass]="item.highlightFlag ? 'highLight' : ''">{{item.coloredSentence}}</span>
+                    <span>{{item.lastSentence}}</span>
+                </a>
+            </td>
+            <td style="width: 300px;">
+                <div *ngIf='item.meaningFlag'>
+                    {{item.meaning}}
+                </div>
+            </td>
+            <td style="width: 300px;">
+                <div *ngIf='item.grammarFlag'>
+                    {{item.grammar}}
+                </div>
+            </td>
+            <td style="width: 300px;">
+                <div *ngIf='item.grammarFlag'>
+                    {{item.description}}
+                </div>
+            </td>
+            <td>
+                <button (click)='btnHighlightOnclick(id.value)'>Highlight</button>
+                <button (click)='btnMeaningOnclick(id.value)'>Meaning</button>
+                <button (click)='btnGrammarOnclick(id.value)'>Grammar</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<button (click)='btnShuffleOnclick()'>Shuffle</button>
+

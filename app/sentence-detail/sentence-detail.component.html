@@ -1,0 +1,36 @@
+<table style="width: 1500px; border-collapse: collapse;" border="1px">
+    <tr style="font-weight: bold; ">
+        <td>Setence</td>
+        <td>Meaning</td>
+        <td>Grammar</td>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td style="width: 300px;">
+            <span >{{sentence.firstSentence}}</span>
+            <span [ngClass]="highlightFlag ? 'highLight' : ''">{{sentence.coloredSentence}}</span>
+            <span>{{sentence.lastSentence}}</span>
+        </td>
+        <td style="width: 300px;">
+            <div *ngIf='sentence.meaningFlag'>
+                {{sentence.meaning}}
+            </div>
+        </td>
+        <td style="width: 300px;">
+            <div *ngIf='sentence.grammarFlag'>
+                {{sentence.grammar}}
+            </div>
+        </td>
+        <td style="width: 300px;">
+            <div *ngIf='sentence.grammarFlag'>
+                {{sentence.description}}
+            </div>
+        </td>
+        <td>
+            <button (click)='btnHighlightOnclick()'>Highlight</button>
+            <button (click)='btnMeaningOnclick()'>Meaning</button>
+            <button (click)='btnGrammarOnclick()'>Grammar</button>
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,15 @@
+.highLight {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
