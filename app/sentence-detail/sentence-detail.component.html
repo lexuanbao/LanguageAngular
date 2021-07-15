@@ -13,17 +13,17 @@
             <span>{{sentence.lastSentence}}</span>
         </td>
         <td style="width: 300px;">
-            <div *ngIf='sentence.meaningFlag'>
+            <div *ngIf='meaningFlag'>
                 {{sentence.meaning}}
             </div>
         </td>
         <td style="width: 300px;">
-            <div *ngIf='sentence.grammarFlag'>
+            <div *ngIf='grammarFlag'>
                 {{sentence.grammar}}
             </div>
         </td>
         <td style="width: 300px;">
-            <div *ngIf='sentence.grammarFlag'>
+            <div *ngIf='grammarFlag'>
                 {{sentence.description}}
             </div>
         </td>
@@ -31,6 +31,9 @@
             <button (click)='btnHighlightOnclick()'>Highlight</button>
             <button (click)='btnMeaningOnclick()'>Meaning</button>
             <button (click)='btnGrammarOnclick()'>Grammar</button>
+            <br>
+            <button (click)='btnPreviousOnclick()'>Previous</button>
+            <button (click)='btnNextOnclick()'>Next</button>
         </td>
     </tr>
 </table>

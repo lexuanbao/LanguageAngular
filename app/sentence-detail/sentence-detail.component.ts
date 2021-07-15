@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { sentences } from '../database';
+import { common } from '../helper/common';
 
 @Component({
   selector: 'app-sentence-detail',
@@ -9,30 +10,54 @@ import { sentences } from '../database';
 })
 export class SentenceDetailComponent implements OnInit {
 
+  id;
   data;
   sentence;
   highlightFlag = false;
   meaningFlag = false;
   grammarFlag = false;
 
-  constructor(private route: ActivatedRoute) {
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+    ) {
     this.data = sentences;
+    this.id = parseInt(this.route.snapshot.paramMap.get('id')!);
   }
 
   ngOnInit(): void {
-    const id = parseInt(this.route.snapshot.paramMap.get('id')!);
-    this.sentence = this.data.filter(item => item.id == id)[0];
+    this.sentence = this.data.filter(item => item.id == this.id)[0];
   }
 
   btnHighlightOnclick() {
-
+    this.highlightFlag = common.handleFlag(this.highlightFlag);
   }
 
   btnMeaningOnclick() {
-
+    this.meaningFlag = common.handleFlag(this.meaningFlag);
   }
 
   btnGrammarOnclick() {
+    this.grammarFlag = common.handleFlag(this.grammarFlag);
+  }
 
+  btnNextOnclick(){
+    if(this.id + 1 <= this.data.length) {
+      this.id = this.id + 1;
+      this.sentence = this.data.filter(item => item.id == this.id)[0];
+      this.router.navigateByUrl(`/sentences/detail/${this.id}`);
+    } else {
+      alert('Max page!')
+    }
+  }
+
+  btnPreviousOnclick(){
+    if(this.id > 1) {
+      this.id = this.id - 1;
+      this.sentence = this.data.filter(item => item.id == this.id)[0];
+      this.router.navigateByUrl(`/sentences/detail/${this.id}`);
+    } else {
+      alert('Out of page!')
+    }
   }
 }

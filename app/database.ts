@@ -27,4 +27,18 @@ export const sentences: any[] = [
         grammarFlag: false,
         meaningFlag: false,
     }, 
+    {
+        id: 3,
+        firstSentence: 'あなたはどこへ',
+        coloredSentence: '行こうとしますか',
+        lastSentence: '、DNですか3',
+        meaning: 'Bạn dự định đi đâu3',
+        start: 8,
+        end: 14,
+        grammar: 'V-よう +　とします3',
+        description: 'Dự định làm gì đó3',
+        highlightFlag: false,
+        grammarFlag: false,
+        meaningFlag: false,
+    }, 
 ]

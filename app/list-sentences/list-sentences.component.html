@@ -37,7 +37,20 @@
                 <button (click)='btnGrammarOnclick(id.value)'>Grammar</button>
             </td>
         </tr>
+        <!-- edit region -->
+        <tr *ngIf='addFlag'>
+            <td><input style="width: 300px;" placeholder="Setence" ></td>
+            <td><input placeholder="Meaning"></td>
+            <td><input placeholder="Grammar"></td>
+            <td><input placeholder="Description"></td>
+            <td>
+                <button (click)='btnChooseOnclick()'>Choose</button>
+                <button (click)='btnSaveOnclick()'>Save</button>
+                <button (click)='btnCancelOnclick()'>Cancel</button>
+            </td>
+        </tr>
     </table>
 </div>
 <button (click)='btnShuffleOnclick()'>Shuffle</button>
+<button (click)='btnAddOnClick()'>Add</button>
 

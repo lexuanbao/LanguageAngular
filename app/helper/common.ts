@@ -1,4 +1,23 @@
-export function shuffle(array) {
+export class common{
+  /**
+   * Change to opposite value of a flag
+   * @param flag the flag that need handle
+   * @returns a opposite value of param
+   */
+  static handleFlag(flag) : boolean {
+    if(flag) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+  /**
+   * Shuffle a array ramdomly
+   * @param array 
+   * @returns shuffled array
+   */
+  static shuffle(array) {
     var currentIndex = array.length,  randomIndex;
   
     // While there remain elements to shuffle...
@@ -14,3 +33,5 @@ export function shuffle(array) {
     }
     return array;
   }
+}
+
