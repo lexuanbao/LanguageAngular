@@ -1,2 +1,6 @@
-<button (click)='btnHomeOnclick()'>Home</button>
+<div class="container-parent container-fluid">
+        <fa-icon (click)='btnHomeOnclick()'  class="mt-1 home-icon"  [icon]="['fas', 'home']"></fa-icon>
+        <div class="app-name">Language learning app</div>
+        <fa-icon (click)='btnHomeOnclick()'  class="mt-1 logout-icon"  [icon]="['fas', 'door-open']"></fa-icon>
+</div>
 <router-outlet></router-outlet>

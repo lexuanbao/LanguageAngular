@@ -1,39 +1,53 @@
-<table style="width: 1500px; border-collapse: collapse;" border="1px">
-    <tr style="font-weight: bold; ">
-        <td>Setence</td>
-        <td>Meaning</td>
-        <td>Grammar</td>
-        <td>Description</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td style="width: 300px;">
-            <span >{{sentence.firstSentence}}</span>
-            <span [ngClass]="highlightFlag ? 'highLight' : ''">{{sentence.coloredSentence}}</span>
-            <span>{{sentence.lastSentence}}</span>
-        </td>
-        <td style="width: 300px;">
-            <div *ngIf='meaningFlag'>
-                {{sentence.meaning}}
-            </div>
-        </td>
-        <td style="width: 300px;">
-            <div *ngIf='grammarFlag'>
-                {{sentence.grammar}}
-            </div>
-        </td>
-        <td style="width: 300px;">
-            <div *ngIf='grammarFlag'>
-                {{sentence.description}}
-            </div>
-        </td>
-        <td>
-            <button (click)='btnHighlightOnclick()'>Highlight</button>
-            <button (click)='btnMeaningOnclick()'>Meaning</button>
-            <button (click)='btnGrammarOnclick()'>Grammar</button>
-            <br>
-            <button (click)='btnPreviousOnclick()'>Previous</button>
-            <button (click)='btnNextOnclick()'>Next</button>
-        </td>
-    </tr>
-</table>
+<div class='.container-fluid'>
+    <table class="mt-3 mb-3">
+        <tr>
+            <th>Setence</th>
+            <th>Meaning</th>
+            <th>Grammar</th>
+            <th>Description</th>
+            <th>Note</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td style="width: 300px;">
+                <span >{{sentence.firstSentence}}</span>
+                <span [ngClass]="sentence.highlightFlag ? 'highLight' : ''">{{sentence.coloredSentence}}</span>
+                <span>{{sentence.lastSentence}}</span>
+                <span [ngClass]="sentence.highlightFlag ? 'highLight' : ''">{{sentence.coloredSentenceOption}}</span>
+                <span>{{sentence.lastSentenceOption}}</span>
+            </td>
+            <td style="width: 300px;">
+                <div *ngIf='sentence.meaningFlag'>
+                    {{sentence.meaning}}
+                </div>
+            </td>
+            <td style="width: 300px;">
+                <div *ngIf='sentence.grammarFlag'>
+                    {{sentence.grammar}}
+                </div>
+            </td>
+            <td style="width: 300px;">
+                <div *ngIf='sentence.grammarFlag'>
+                    {{sentence.description}}
+                </div>
+            </td>
+            <td style="width: 300px;">
+                <div>
+                    {{sentence.note}}
+                </div>
+            </td>
+            <td>
+                <button (click)='btnHighlightOnclick()'>Highlight</button>
+                <button (click)='btnMeaningOnclick()'>Meaning</button>
+                <button (click)='btnGrammarOnclick()'>Grammar</button>
+                <br>
+            </td>
+        </tr>
+    </table>
+    <a routerLink="/sentences/detail/{{previousId}}">Previous</a>
+    ||||
+    <a routerLink="/sentences/detail/{{nextId}}">next</a>
+    <div style="margin: auto; width: 100px;">{{currentIndex + 1}}/{{sentencesArray.length}}</div>
+</div>
+
+

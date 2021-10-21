@@ -1,0 +1,55 @@
+@use '../helper/style.scss';
+@import '../helper/style.scss';//import to use mixin
+
+.highLight{
+    @extend %high-light;
+}
+
+input{
+    border-radius: 5px;
+    border:2px solid #dadada;
+    transition: border-color 0.5s;
+    &:focus {
+        outline: none;
+        border-color: #9ecaed;
+        box-shadow:0 0 10px #a8a9aa;
+    }
+}
+
+.header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    top: 0;
+    overflow: auto; //Fix float property
+    height: 75px;
+
+    .search-control{
+        margin-top: 20px;
+        float: right;
+        margin-right: 30px;
+    
+        button{
+            margin-left: 6px;
+        }
+    
+        fa-icon{
+            cursor: pointer;
+        }
+    }
+
+    .chosen-control{
+        float: left;
+        margin-left: 15px;
+        .chosen{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}
+
+table{
+    @include table-style(99%, 800px)
+}
+
+button{
+    @extend %button-style
+}

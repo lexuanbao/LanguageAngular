@@ -1,0 +1,2693 @@
+[{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfae8"
+  },
+  "id": 2,
+  "firstSentence": "あの人はさびし",
+  "coloredSentence": "げ",
+  "lastSentence": "な目をしている",
+  "meaning": "Ánh mắt người đó có vẻ cô đơn",
+  "grammar": "Tính từ bỏ hết + げ  *chú ý: よい　→　よさげ｜ない　→　なさげ｜あります　→　ありげ",
+  "description": "Có vẻ",
+  "note": "Tuần 1, bài 1.1",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": ""
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfae9"
+  },
+  "id": 3,
+  "firstSentence": "私は子供の頃、病院",
+  "coloredSentence": "がちだった",
+  "lastSentence": "",
+  "meaning": "Hồi nhỏ tôi thường bị bệnh",
+  "grammar": "Nがち|ｖ－ますがち (bỏ ます)",
+  "description": "Có khuynh hướng",
+  "note": "Tuần 1, bài 1.2"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaea"
+  },
+  "id": 4,
+  "firstSentence": "年を取ると、忘れ",
+  "coloredSentence": "っぽく",
+  "lastSentence": "なる",
+  "meaning": "Càng già càng dễ quên",
+  "grammar": "ｖ－ます(bỏ ます) | A - い (Bỏ い)  + いっぽい",
+  "description": "Có vẻ (thực tế không phải vậy)",
+  "note": "Tuần 1, Bài 1.3",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": ""
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaeb"
+  },
+  "id": 5,
+  "firstSentence": "残業続きで、疲れ",
+  "coloredSentence": "ぎみだ",
+  "lastSentence": "",
+  "meaning": "Tôi mệt mỏi vì làm thêm giờ",
+  "grammar": "ｖ－ます(bỏ ます) | N気味（ぎみ）",
+  "description": "Có vẻ (Nghĩa xấu)",
+  "note": "Tuần 1, Bài 1.4"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaec"
+  },
+  "id": 6,
+  "firstSentence": "かえる",
+  "coloredSentence": "ものなら",
+  "lastSentence": "今すぐ、国へ帰りたい",
+  "meaning": "Nếu có thể trở về, tôi muốn trở về nước ngay bây giờ",
+  "grammar": "Vれる＋ものなら / もんなら",
+  "description": "Nếu 1 việc không thể xảy ra (if-2)",
+  "note": "Tuần 1, Bài 2.1"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaed"
+  },
+  "id": 7,
+  "firstSentence": "上着を脱いでもいいですか。暑い",
+  "coloredSentence": "ものですから",
+  "lastSentence": "",
+  "meaning": "Tôi có thể cởi áo khoác ra được không? vì tôi thấy hơi nóng",
+  "grammar": "Thể thông thường だ -> な + ものだから / もんだから",
+  "description": "vì (vế trước không bày tỏ ý chí, yêu cầu của người nói)",
+  "note": "Tuần 1, Bài 2.2"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaee"
+  },
+  "id": 8,
+  "firstSentence": "パーティーにはいかなかったよ。知らなかった（んだ）",
+  "coloredSentence": "もの",
+  "lastSentence": "",
+  "meaning": "Tôi đã không đi dự tiệc vì tôi không biết",
+  "grammar": "Thể thông thường + もの/もん",
+  "description": "vì (giải thích lí do chính đáng dùng cho trẻ em và phụ nữ)",
+  "note": "Tuần 1, Bài 2.3 (mềm) dùng văn nói"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaef"
+  },
+  "id": 9,
+  "firstSentence": "春とは言う",
+  "coloredSentence": "ものの、",
+  "lastSentence": "まだ寒い",
+  "meaning": "Tuy là mùa xuân nhưng vẫn còn lạnh",
+  "grammar": "Thể thông thường　だ　→　な + ものの",
+  "description": "Tuy nhưng",
+  "note": "Tuần 1, Bài 2.4"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf0"
+  },
+  "id": 10,
+  "firstSentence": "うちには、車",
+  "coloredSentence": "はもとより",
+  "lastSentence": "自転車もないんです",
+  "meaning": "Nhà tôi không chỉ xe đạp mà xe hơi cũng ko có",
+  "grammar": "Nはもとより～も",
+  "description": "Không chỉ...mà",
+  "note": "Tuần 1, bài 3.1"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf1"
+  },
+  "id": 11,
+  "firstSentence": "母の料理は見た目",
+  "coloredSentence": "はともかく",
+  "lastSentence": "味はおいしい",
+  "meaning": "Đồ ăn mẹ nấu chưa bàn đến vẻ bề ngoài, vị của nó đã rất ngon",
+  "grammar": "N1 はともかく N2は｜が",
+  "description": "Chưa bàn đến...thì",
+  "note": "Tuần 1, Bài 3.2"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf2"
+  },
+  "id": 12,
+  "firstSentence": "私の英語力では、旅行は",
+  "coloredSentence": "まだしても",
+  "lastSentence": "、留学なんて無理です",
+  "meaning": "Tiếng anh của tôi đi du lịch thì được, chứ đi du học như thế kia thì không thể",
+  "grammar": "N + は｜なら + まだしても",
+  "description": "Còn được...đằng này",
+  "note": "Tuần 1, Bài 3.3",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": ""
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf3"
+  },
+  "id": 13,
+  "firstSentence": "皆さん、仕事の話",
+  "coloredSentence": "はぬきにして",
+  "lastSentence": "楽しく飲みましょう",
+  "meaning": "Nếu có thể trở về, tôi muốn trở về nước ngay bây giờ",
+  "grammar": "N + は｜(を) 抜き + にして｜で｜に",
+  "description": "Hãy bỏ ra, hãy thôi",
+  "note": "Tuần 1, Bài 3.4"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf4"
+  },
+  "id": 14,
+  "firstSentence": "子供のことが心配で",
+  "coloredSentence": "たまらない",
+  "lastSentence": "",
+  "meaning": "Tôi lo cho con tôi quá",
+  "grammar": "Aくて｜naで｜Vたくて + たまらない",
+  "description": "Quá",
+  "note": "Tuần 1, Bài 4.1",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": ""
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf5"
+  },
+  "id": 15,
+  "firstSentence": "今日は何もすることがなくて、ひま",
+  "coloredSentence": "でしかたがない",
+  "lastSentence": "",
+  "meaning": "Hôm nay không có việc gì làm, rảnh vô cùng",
+  "grammar": "Aくて｜naで｜Vたくて + 仕方がない｜しようがない",
+  "description": "Quá",
+  "note": "Tuần 1, Bài 4.2"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf6"
+  },
+  "id": 16,
+  "firstSentence": "隣工事がうるさくて",
+  "coloredSentence": "かなわない",
+  "lastSentence": "",
+  "meaning": "việc xây dựng của nhà bên cạnh ồn ào quá tối không chịu nổi",
+  "grammar": "Aくて｜naで + かなわない",
+  "description": "Không thể chịu được",
+  "note": "Tuần 1, Bài 4.3 (cứng)",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": ""
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf7"
+  },
+  "id": 17,
+  "firstSentence": "親友の結婚式に出席できないのが、残念",
+  "coloredSentence": "でならない",
+  "lastSentence": "",
+  "meaning": "Tôi không thể có mặt ở đám cưới của bạn, thật tiếc ơi là tiếc",
+  "grammar": "Aくて｜naで｜Vたくて + でならない",
+  "description": "Hết sức, vô cùng",
+  "note": "Tuần 1, Bài 4.4 (cứng)"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf8"
+  },
+  "id": 18,
+  "firstSentence": "お酒やタバコをやめるのは難しいが、やめられ",
+  "coloredSentence": "ないことはない",
+  "lastSentence": "",
+  "meaning": "Thuốc lá và rượu thì khó bỏ thật, nhưng không phải là không thể bỏ được",
+  "grammar": "Aくない｜naじゃない｜Vない + ことはない",
+  "description": "Không phải là không thể",
+  "note": "Tuần 1, Bài 5.1"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaf9"
+  },
+  "id": 19,
+  "firstSentence": "毎日、漢字を4つか5つなら、覚えられ",
+  "coloredSentence": "ないこともない",
+  "lastSentence": "",
+  "meaning": "Mỗi ngày, nếu 4, 5 chữ kanji thì không thể là không nhớ được",
+  "grammar": "Aくない｜naじゃない｜Vない + こともない",
+  "description": "Không phải là không thể",
+  "note": "Tuần 1, Bài 5.2"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfafa"
+  },
+  "id": 20,
+  "firstSentence": "態度の悪い店員に、人文句を言わ",
+  "coloredSentence": "ないではいられなかった",
+  "lastSentence": "",
+  "meaning": "Với nhân viên của tiệm có thái độ không tốt thì không phàn nàn không được",
+  "grammar": "V + ないではいられない",
+  "description": "Bắt buộc, không thể không",
+  "note": "Tuần 1, Bài 5.3"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfafb"
+  },
+  "id": 21,
+  "firstSentence": "あの映画を見たら、誰でも感動せ",
+  "coloredSentence": "ずにはいられない",
+  "lastSentence": "",
+  "meaning": "Với nhân viên của tiệm có thái độ không tốt thì không phàn nàn không được",
+  "grammar": "Vーない (bỏ nai) + ずにはいられない | しない　→　せず",
+  "description": "Bắt buộc, không thể không",
+  "note": "Tuần 1, Bài 5.4 (cứng)"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfafc"
+  },
+  "id": 22,
+  "firstSentence": "ピザが切れたので、国に帰ら",
+  "coloredSentence": "ねばならない",
+  "lastSentence": "",
+  "meaning": "Vì Visa đã hết hạn nên tôi phải về nước",
+  "grammar": "Vーない(bỏ nai) + ねば + ならない｜ならぬ *Chú ý: しない　→　せねば",
+  "description": "Phải",
+  "note": "Tuần 1, Bài 6.1 (cứng)"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfafd"
+  },
+  "id": 23,
+  "firstSentence": "失敗を人せいにし",
+  "coloredSentence": "てはなりません",
+  "lastSentence": "",
+  "meaning": "Không được đổ lỗi cho người khác vì thất bại của mình",
+  "grammar": "Vてはならない",
+  "description": "Không được",
+  "note": "Tuần 1, Bài 6.2 (cứng) *chú ý phân biệt với tuần 1, bài 4.4"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfafe"
+  },
+  "id": 24,
+  "firstSentence": "田中君、遅いなあ、もう待っ",
+  "coloredSentence": "てられない",
+  "lastSentence": "から先に行こう",
+  "meaning": "Takana đến muộn ghê, không thể cứ đợi mãi được, chúng ta đi trước thôi",
+  "grammar": "Vていられない｜Vてられない｜Vてらんない",
+  "description": "Không thể cứ",
+  "note": "Tuần 1, Bài 6.3"
+},{
+  "_id": {
+    "$oid": "60f53976f950f96cd85cfaff"
+  },
+  "id": 25,
+  "firstSentence": "もう親に頼っ",
+  "coloredSentence": "てばかりはいられない",
+  "lastSentence": "",
+  "meaning": "Không thể cứ dựa dẫm vào cha mẹ mãi được",
+  "grammar": "Vてばかりはいられない",
+  "description": "Không thể cứ",
+  "note": "Tuần 1, Bài 6.4"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483918"
+  },
+  "id": 26,
+  "firstSentence": "努力の",
+  "coloredSentence": "かいがあって",
+  "lastSentence": "、希望の大学に合格した",
+  "meaning": "Thật đáng công nỗ lực, tôi đã đậu vào trường đại học đúng như nguyện vọng",
+  "grammar": "Vる | Vた | Nの + かいがある",
+  "description": "Đáng công",
+  "note": "Tuần 2, bài 1.1"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483919"
+  },
+  "id": 27,
+  "firstSentence": "手術",
+  "coloredSentence": "のかいもなく",
+  "lastSentence": "、愛犬が死んでしまった",
+  "meaning": "Dù đã tốn công phẫu thuật nhưng chú chó yêu quý của tui đã chết mất rồi",
+  "grammar": "Vた | Nの + かいが(も)ない",
+  "description": "Dù bỏ công ra nhưng...",
+  "note": "Tuần 2, bài 1.2"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48391a"
+  },
+  "id": 28,
+  "firstSentence": "やり",
+  "coloredSentence": "がい",
+  "lastSentence": "のある仕事",
+  "meaning": "Công việc đáng để làm",
+  "grammar": "Vます + がい",
+  "description": "Đáng để",
+  "note": "Tuần 2, bài 1.3"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48391b"
+  },
+  "id": 29,
+  "firstSentence": "借金し",
+  "coloredSentence": "てまで／までして",
+  "lastSentence": "海外旅行に行くなんて、私には信じられない",
+  "meaning": "Đi du lịch đến mức phải mượn tiền như thế, thật không thể tin được",
+  "grammar": "Vてまで(も) | Nまで Vて",
+  "description": "Đến mức",
+  "note": "Tuần 2, Bài 1.4"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48391c"
+  },
+  "id": 30,
+  "firstSentence": "彼女は何か言い",
+  "coloredSentence": "かけて",
+  "lastSentence": "やめた",
+  "meaning": "Cô ấy đang nói cái gì đó, giữa chừng thì lại ngừng",
+  "grammar": "V-ます(bỏ masu) + かける｜かけの｜かけだ｜かけて",
+  "description": "Giữa chừng",
+  "note": "Tuần 2, Bài 2.1"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48391d"
+  },
+  "id": 31,
+  "firstSentence": "この小説は面白くて、1日で読み",
+  "coloredSentence": "きった",
+  "lastSentence": "",
+  "meaning": "Cuốn tiểu thuyêt này thật thú vị, tôi đã đọc hết chỉ trong 1 ngày",
+  "grammar": "V-ます(bỏ masu) + 切る｜切れる",
+  "description": "Xong hết",
+  "note": "Tuần 2, Bài 2.2"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48391e"
+  },
+  "id": 32,
+  "firstSentence": "博士でも間違うことはあり",
+  "coloredSentence": "える／うる",
+  "lastSentence": "",
+  "meaning": "Ngay cả tiến sĩ vẫn có thể sai",
+  "grammar": "V-ます(bỏ masu) + (得る) える｜うる *Chú ý không dùng: ありうない／ありうます",
+  "description": "Có thể",
+  "note": "Tuần 2, Bài 2.3",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": ""
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48391f"
+  },
+  "id": 33,
+  "firstSentence": "大変な仕事でも、やり",
+  "coloredSentence": "抜く",
+  "lastSentence": "自信があります",
+  "meaning": "Tôi tự tin làm tới cùng dù công việc có khó khăn tới mấy ",
+  "grammar": "V-ます(bỏ masu) + (抜く) ぬく",
+  "description": "Tới cùng",
+  "note": "Tuần 2, Bài 2.4"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483920"
+  },
+  "id": 34,
+  "firstSentence": "忘れない",
+  "coloredSentence": "うちに",
+  "lastSentence": "・メモしておこう",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Hãy ghi chép trước khi chưa quên",
+  "grammar": "Thể thông thường | Nの + うちに",
+  "description": "Trong lúc (tranh thủ)",
+  "note": "Tuần 2, Bài 3.1"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483921"
+  },
+  "id": 35,
+  "firstSentence": "布団に入る",
+  "coloredSentence": "か",
+  "lastSentence": "入ら",
+  "coloredSentenceOption": "ないかのうちに",
+  "lastSentenceOption": "眠ってしまう",
+  "meaning": "Chưa biết vào chăn hay chưa mà　đã ngủ mất tiêu rồi",
+  "grammar": "Vるか...Vない + かのうちに",
+  "description": "Chưa biết...mà đã",
+  "note": "Tuần 2, Bài 3.2"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483922"
+  },
+  "id": 36,
+  "firstSentence": "日本にいる",
+  "coloredSentence": "かぎる、",
+  "lastSentence": "日本語は必要だ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chỉ ở Nhật thì tiếng nhật mới cần thiết",
+  "grammar": "Thể thông thường + 限る",
+  "description": "Trong, chỉ",
+  "note": "Tuần 2, Bài 3.3"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483923"
+  },
+  "id": 37,
+  "firstSentence": "７０歳以上の方",
+  "coloredSentence": "にかぎり、",
+  "lastSentence": "入場無料",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chỉ có nhũng người trên 70 tuổi mới vào cổng miễn phí",
+  "grammar": "N + に限り",
+  "description": "Trong, chỉ",
+  "note": "Tuần 2, Bài 3.4"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483924"
+  },
+  "id": 38,
+  "firstSentence": "この薬を飲み",
+  "coloredSentence": "さえ、",
+  "lastSentence": "すれ",
+  "coloredSentenceOption": "ば",
+  "lastSentenceOption": "、すぐに治ります",
+  "meaning": "Chỉ cần uống thuốc này thì sẽ khỏe ngay",
+  "grammar": "1. Nさえ + Vば | Aければ | naなら | Nなら/ 2. V-ます(bỏ ます) + さえすれば",
+  "description": "Chỉ cần",
+  "note": "Tuần 2, Bài 4.1"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483925"
+  },
+  "id": 39,
+  "firstSentence": "努力した",
+  "coloredSentence": "からこそ",
+  "lastSentence": "成功したんです",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chính vì nhờ nỗ lực của mình mà tôi đã thành công",
+  "grammar": "1. Thể thông thường + からこそ/ 2. Thể điều kiện (ば) + こそ",
+  "description": "Chính vì",
+  "note": "Tuần 2, Bài 4.2"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483927"
+  },
+  "id": 60,
+  "firstSentence": "お互いに信頼し",
+  "coloredSentence": "てこそ",
+  "lastSentence": "、悩みも言える",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chính vì tin tưởng lẫn nhau nên mói nói ra những điều lo rắng",
+  "grammar": "Vて + こそ",
+  "description": "Chính vì",
+  "note": "Tuần 2, Bài 4.3"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483928"
+  },
+  "id": 41,
+  "firstSentence": "物価は上がる",
+  "coloredSentence": "ばかりだ",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Vật giá ngày càng tăng cao",
+  "grammar": "Vる + ばかり",
+  "description": "Ngày càng",
+  "note": "Tuần 2, Bài 4.4 (a)"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483929"
+  },
+  "id": 42,
+  "firstSentence": "事故がないようにと",
+  "coloredSentence": "ただ",
+  "lastSentence": "祈る",
+  "coloredSentenceOption": "ばかりだ",
+  "lastSentenceOption": "",
+  "meaning": "Tôi chỉ còn biết cầu nguyện mong tai nạn đừng xảy ra",
+  "grammar": "(ただ) Vる + ばかり | のみだ (cứng)",
+  "description": "Chỉ",
+  "note": "Tuần 2, Bài 4.4 (b)"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48392a"
+  },
+  "id": 43,
+  "firstSentence": "大きすぎる親の期待は、子供",
+  "coloredSentence": "にしたら",
+  "lastSentence": "苦痛だ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Kì vọng của cha mẹ càng lớn thì đối với con cái càng đau khổ",
+  "grammar": "Nに + したら | すれば | してみたら | してみれば",
+  "description": "Đối với (đứng trên lập trường)",
+  "note": "Tuần 2, Bài 5.1"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48392b"
+  },
+  "id": 44,
+  "firstSentence": "あの人が今も生きている",
+  "coloredSentence": "とすれば",
+  "lastSentence": "、もう９０歳になっているでしょう",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Người kia nếu mà bây giờ còn sống thì đã được 90 tuổi rồi",
+  "grammar": "Thể thông thường + と + したら | すれば ",
+  "description": "Nếu (if-2)",
+  "note": "Tuần 2, Bài 5.2"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48392c"
+  },
+  "id": 45,
+  "firstSentence": "負けて悔しいのは、選手だけでなく監督",
+  "coloredSentence": "にしても",
+  "lastSentence": "同じだが",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Khi thua cuộc thì người đau khổ không chỉ là tuyển thủ mà còn là huấn luyện viên",
+  "grammar": "1.Thể thông thường + と しても | と したって/ 2.Thể thông thường (bỏ だ) + に しても | に したって ",
+  "description": "Dù cho",
+  "note": "Tuần 2, Bài 5.3"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48392d"
+  },
+  "id": 46,
+  "firstSentence": "山田さん",
+  "coloredSentence": "を",
+  "lastSentence": "リーダー",
+  "coloredSentenceOption": "とする",
+  "lastSentenceOption": "サークルを作る",
+  "meaning": "Tổ chức câu lạc bộ mà anh yamada làm đội trưởng",
+  "grammar": "N1 を N2 と + してV | するN | したN ",
+  "description": "Lấy...làm",
+  "note": "Tuần 2, Bài 5.4"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48392e"
+  },
+  "id": 47,
+  "firstSentence": "家族",
+  "coloredSentence": "とともに",
+  "lastSentence": "来日した",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi đến Nhật cùng với gia đình",
+  "grammar": "N | Vる + と共に ",
+  "description": "Cùng với",
+  "note": "Tuần 2, Bài 6.1"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e48392f"
+  },
+  "id": 48,
+  "firstSentence": "人口の増加",
+  "coloredSentence": "にともない",
+  "lastSentence": "、資源の消費量も増える",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cùng với việc gia tăng dân số thì sự tiêu tốn tài nguyên cũng tăng",
+  "grammar": "N | Vるの + に伴って ",
+  "description": "Cùng với (diễn tả 2 sự thay đổi)",
+  "note": "Tuần 2, Bài 6.2"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483930"
+  },
+  "id": 49,
+  "firstSentence": "町の発展",
+  "coloredSentence": "につれて",
+  "lastSentence": "、自然が少なくなった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Thành phố càng phát triển thì không gian tự nhiên càng ít đi",
+  "grammar": "N | Vるにつれて ",
+  "description": "Càng...càng",
+  "note": "Tuần 2, Bài 6.3"
+},{
+  "_id": {
+    "$oid": "60f8da0772e09ae17e483931"
+  },
+  "id": 50,
+  "firstSentence": "予定表",
+  "coloredSentence": "にしたがい",
+  "lastSentence": "、学習を進める",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tiến học tập theo bản kế hoạch",
+  "grammar": "N | Vる + にしたがって",
+  "description": "Theo",
+  "note": "Tuần 2, Bài 6.4"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa76"
+  },
+  "id": 51,
+  "firstSentence": "自分の思う",
+  "coloredSentence": "とおりに",
+  "lastSentence": "生きることは難しい",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Sống theo những gì mình nghĩ thật khó",
+  "grammar": "1. Vる | Vた | Nの + とおり/ 2. N + どおり",
+  "description": "Theo như",
+  "note": "Tuần 3, bài 1.1"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa77"
+  },
+  "id": 52,
+  "firstSentence": "セールスマンに言われる",
+  "coloredSentence": "まま",
+  "lastSentence": "、契約祖にサインをしてしまった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi đã kí vào bản hợp đồng như nhân viên bán hàng nói",
+  "grammar": "Vる | Vられる + まま(に)",
+  "description": "Theo như (phó mặc cho tình hình)",
+  "note": "Tuần 3, bài 1.2"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa78"
+  },
+  "id": 53,
+  "firstSentence": "驚いた",
+  "coloredSentence": "ことに",
+  "lastSentence": "、彼女は同じ相手と2回も離婚して再婚しているんです",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Thật là ngạc nhiên, cô ta tái hôn và li hôn 2 lần với cùng 1 người",
+  "grammar": "Aい | naな | Vた + ことに",
+  "description": "Thật là (nhấn mạnh đầu câu)",
+  "note": "Tuần 3, bài 1.3"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa79"
+  },
+  "id": 54,
+  "firstSentence": "緊張の",
+  "coloredSentence": "あまり",
+  "lastSentence": "、体が震えた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cơ thể tôi run rẩy vì quá căng thẳng",
+  "grammar": "Aい -> Aさの | naな | Vる | Nの + あまり",
+  "description": "Vì quá (thường hay đứng cuối của câu)",
+  "note": "Tuần 3, bài 1.4"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa7a"
+  },
+  "id": 55,
+  "firstSentence": "寒い",
+  "coloredSentence": "わけだ",
+  "lastSentence": "。雪が降っている",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tuyết đang rơi, hèn chi trời lạnh",
+  "grammar": "Thể thông thường (だ -> な) + わけだ",
+  "description": "hèn chi",
+  "note": "Tuần 3, bài 2.1"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa7b"
+  },
+  "id": 56,
+  "firstSentence": "ほしくない",
+  "coloredSentence": "わけではない",
+  "lastSentence": "けれど、お金がない",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Không phải là không muốn nhưng vì không có tiền nên không thể mua được",
+  "grammar": "Thể thông thường (だ -> な) + わけではない | わけでもない",
+  "description": "Không hẳn là",
+  "note": "Tuần 3, bài 2.2"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa7c"
+  },
+  "id": 57,
+  "firstSentence": "うちの子がそんなことをする",
+  "coloredSentence": "わけがない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Con tôi không có lý nào mà lại làm được chuyện như vậy",
+  "grammar": "Thể thông thường (だ -> な)+ わけがない | わけはない",
+  "description": "Không có lý nào",
+  "note": "Tuần 3, bài 2.3"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa7d"
+  },
+  "id": 58,
+  "firstSentence": "重要な会議があるので、病気でも会社を休む",
+  "coloredSentence": "わけにはいかない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Vì có cuộc họp quan trọng nên dù có bị bệnh thì cũng không thể nghỉ",
+  "grammar": "Vる | Vない + わけにはいかない | わけにもいかない",
+  "description": "Không thể (diễn tả 1 sự việc muốn nhưng không thể)",
+  "note": "Tuần 3, bài 2.4"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa7e"
+  },
+  "id": 59,
+  "firstSentence": "お酒を飲ん",
+  "coloredSentence": "だとたん",
+  "lastSentence": "、顔が赤くなった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Ngay khi uống rượu vào thì tôi đỏ mặt ngay",
+  "grammar": "Vた + とたん",
+  "description": "Ngay khi (vế sau không bày tỏ ý chí, nguyện vọng)",
+  "note": "Tuần 3, bài 3.1"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa7f"
+  },
+  "id": 61,
+  "firstSentence": "何度も手術した",
+  "coloredSentence": "あげく",
+  "lastSentence": "、治らないと言われた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Sau nhiều lần phẫu thuật, bệnh của tôi bị phán là không thể chữa được",
+  "grammar": "Vた | Nの + あげく",
+  "description": "Sau khi, cuối cùng thì",
+  "note": "Tuần 3, bài 3.2"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa80"
+  },
+  "id": 62,
+  "firstSentence": "悩んだ",
+  "coloredSentence": "末",
+  "lastSentence": "、進学ではなく就職することにした",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Sau nhiều lần băn khoăn trăn trở, anh ấy đã quyết định đi tìm việc thay vì học lên cao",
+  "grammar": "Vた | Nの + すえ",
+  "description": "Sau khi, cuối cùng thì (thường cho văn viết)",
+  "note": "Tuần 3, bài 3.3"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa81"
+  },
+  "id": 63,
+  "firstSentence": "あの人は忙しい人で、来",
+  "coloredSentence": "たかと思ったら",
+  "lastSentence": "、もう帰ってしまった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Người đó bận rộn nhỉ, cứ ngỡ là vừa tới ai ngờ là về mất tiêu rồi",
+  "grammar": "Vたかと | Vたと + 思ったら | 思うと",
+  "description": "Cứ ngỡ là",
+  "note": "Tuần 3, bài 3.4"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa82"
+  },
+  "id": 64,
+  "firstSentence": "お忙しい",
+  "coloredSentence": "ところ",
+  "lastSentence": "（を）すみません",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Xin lỗi vì làm phiền trong lúc bạn đang bận",
+  "grammar": "Aい | Vている | Vていた | Vた | Nの + ところ (に | へ | を | だ)",
+  "description": "Đúng lúc",
+  "note": "Tuần 3, bài 4.1"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa83"
+  },
+  "id": 65,
+  "firstSentence": "病院で検査し",
+  "coloredSentence": "たところ",
+  "lastSentence": "、異常はなかった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Sau khi kiểm tra ở bệnh viện thì phát hiện ra không có gì bất thường",
+  "grammar": "Vた + ところ",
+  "description": "Sau khi (phát hiện ra B ngoài sức tưởng tượng)",
+  "note": "Tuần 3, bài 4.2"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa84"
+  },
+  "id": 66,
+  "firstSentence": "工場で火事があり、仕事",
+  "coloredSentence": "どころではなかった",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Có hỏa hoạn ở công trường nên hông phải lúc làm việc được",
+  "grammar": "Nどころ | Vるどころ | Vているどころ | + ではない | じゃない | ではなく~ | じゃなく~",
+  "description": "Không phải lúc",
+  "note": "Tuần 3, bài 4.3"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa85"
+  },
+  "id": 67,
+  "firstSentence": "夏休みは取れそう？　忙しくて夏休み",
+  "coloredSentence": "どころか",
+  "lastSentence": "日曜日",
+  "coloredSentenceOption": "も",
+  "lastSentenceOption": "休めないよ",
+  "meaning": "Xin nghỉ hè được không ? Bận đến nỗi chủ nhật cũng ko thẻ nghỉ đừng nói đến nghỉ hè",
+  "grammar": "N | Vる | naな | Aい + どころか...も...ない",
+  "description": "Nói gì đến",
+  "note": "Tuần 3, bài 4.4"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa86"
+  },
+  "id": 68,
+  "firstSentence": "この手紙の日本語は間違い",
+  "coloredSentence": "だらけ",
+  "lastSentence": "だ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tiếng Nhật trong bức thư này toàn lỗi sai",
+  "grammar": "N + だらけ",
+  "description": "Toàn là (nghĩa xấu)",
+  "note": "Tuần 3, bài 5.1"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa87"
+  },
+  "id": 69,
+  "firstSentence": "うちの子は遊びに行っ",
+  "coloredSentence": "たきり",
+  "lastSentence": "かえってこない",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Con trai tôi đi chơi mãi chưa về",
+  "grammar": "Vた + きり Vない | っきり Vない | きりだ | っきりだ",
+  "description": "Mãi, kể từ sau",
+  "note": "Tuần 3, bài 5.2 (a)"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa88"
+  },
+  "id": 70,
+  "firstSentence": "母は入院している父をつき",
+  "coloredSentence": "（っ）きり",
+  "lastSentence": "で看病している",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Sau khi bố nhập viện thì mẹ tôi bỏ hết mọi việc mà chỉ đến chăm sóc",
+  "grammar": "Vます (bỏ masu) + っきり | きり",
+  "description": "Chỉ",
+  "note": "Tuần 3, bài 5.2 (b)"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa89"
+  },
+  "id": 71,
+  "firstSentence": "電車が混んでいて、東京まで立ち",
+  "coloredSentence": "っぱなし",
+  "lastSentence": "だった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Xe điện đông người nên tôi phải đứng suốt cho đến tokyo",
+  "grammar": "Vます (bỏ masu) + っぱなし",
+  "description": "Suốt, mãi (Nghĩa tiêu cực)",
+  "note": "Tuần 3, bài 5.3"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa8a"
+  },
+  "id": 72,
+  "firstSentence": "専門家の予想",
+  "coloredSentence": "にはんして",
+  "lastSentence": "、景気は回復し始めた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Trái với dự đoán của cả nhà chuyên môn, kinh tế đang bắt đầu khôi phục",
+  "grammar": "N + に反して | 反し | 反する N",
+  "description": "Trái với",
+  "note": "Tuần 3, bài 6.1"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa8b"
+  },
+  "id": 73,
+  "firstSentence": "コンピューターは便利な",
+  "coloredSentence": "はんめん",
+  "lastSentence": "、トラブルも多い",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Máy tính rất tiện lợi, mặc khác cũng nhiều rắc rối",
+  "grammar": "Thể thông thường + 反面 | 半面",
+  "description": "Mặt khác",
+  "note": "Tuần 3, bài 6.2"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa8c"
+  },
+  "id": 74,
+  "firstSentence": "この布は水に強い",
+  "coloredSentence": "いっぽう",
+  "lastSentence": "、熱に弱い",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tấm vải này chịu nước tốt, mặt khác chịu nhiệt kém",
+  "grammar": "Thể thông thường + 一方",
+  "description": "Mặt khác",
+  "note": "Tuần 3, bài 6.3"
+},{
+  "_id": {
+    "$oid": "60fa3abeccfdcf310212fa8d"
+  },
+  "id": 75,
+  "firstSentence": "大気中のCO2濃度上昇とともに、地球の温暖化は進む",
+  "coloredSentence": "いっぽうだ",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cùng với sự gia tăng nồng độ CO2 trong không khí thì trái đát ngày càng nóng lên",
+  "grammar": "Vる + 一方だ",
+  "description": "Ngày càng",
+  "note": "Tuần 3, bài 6.4"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f32"
+  },
+  "id": 76,
+  "firstSentence": "昨日は寒かった",
+  "coloredSentence": "上に",
+  "lastSentence": "、風が強かった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Hôm qua vừa lạnh hơn nữa gió to",
+  "grammar": "1. Thể thông thường + naな | Nの + うえに",
+  "description": "Hơn nữa",
+  "note": "Tuần 4, bài 1.1"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f33"
+  },
+  "id": 77,
+  "firstSentence": "よく考えた",
+  "coloredSentence": "上で",
+  "lastSentence": "決めます",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Sau khi suy nghĩ kĩ tôi mới quyết định",
+  "grammar": "Vた | Nの + うえで　｜うえの ｜うえでの",
+  "description": "Sau khi",
+  "note": "Tuần 4, bài 1.2"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f34"
+  },
+  "id": 78,
+  "firstSentence": "キャプテンに選ばれた",
+  "coloredSentence": "上は",
+  "lastSentence": "、がんばるしかない",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Vì được chọn làm đội trưởng nên chỉ còn cách là cố gắng",
+  "grammar": "V thông thường + うえは",
+  "description": "Vì",
+  "note": "Tuần 4, bài 1.3"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f35"
+  },
+  "id": 79,
+  "firstSentence": "天気図",
+  "coloredSentence": "の上では",
+  "lastSentence": "春なのに、実際はまだ寒い",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Theo như bản đồ thời tiết thì đã là mùa Xuân rồi, nhưng thực tế vẫn còn lạnh",
+  "grammar": "1. Nの+ うえでは｜うえでも/ 2. N + じょう | じょうは | じょうも",
+  "description": "Theo như",
+  "note": "Tuần 4, bài 1.4"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f36"
+  },
+  "id": 80,
+  "firstSentence": "それは、初心者",
+  "coloredSentence": "向けの",
+  "lastSentence": "教科書です",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đây là sách giáo khoa dành cho người mới",
+  "grammar": "N + むけ ｜ むき + だ ｜ に ｜ の",
+  "description": "Dành cho",
+  "note": "Tuần 4, bài 2.1"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f37"
+  },
+  "id": 81,
+  "firstSentence": "花火大会は天気",
+  "coloredSentence": "次第で",
+  "lastSentence": "中止になる場合もある",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đại hội pháo hoa có thể bị hủy do thời tiết",
+  "grammar": "N + しだい + だ ｜ で ｜ では",
+  "description": "Tùy theo",
+  "note": "Tuần 4, bài 2.2"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f38"
+  },
+  "id": 82,
+  "firstSentence": "決まり",
+  "coloredSentence": "次第",
+  "lastSentence": "、ご連絡いたします",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chừng nào quyết định thì tôi sẽ liên lạc",
+  "grammar": "V-ます(bỏ masu) + しだい",
+  "description": "Chừng nào",
+  "note": "Tuần 4, bài 2.3"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f39"
+  },
+  "id": 83,
+  "firstSentence": "日時の変更について、改めてお知らせする",
+  "coloredSentence": "次第です",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Do đó tôi sẽ thông báo để đổi thời gian và địa điểm sau",
+  "grammar": "Vる | Vた | Vている + しだいです",
+  "description": "Do đó",
+  "note": "Tuần 4, bài 2.4"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f3a"
+  },
+  "id": 84,
+  "firstSentence": "親の期待",
+  "coloredSentence": "にこたえ",
+  "lastSentence": "、がんばった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi đã cố gắng để không phụ kì vọng bố mẹ",
+  "grammar": "Nに + こたえて | こたえ | こたえる N",
+  "description": "Đáp ứng",
+  "note": "Tuần 4, bài 3.1"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f3b"
+  },
+  "id": 85,
+  "firstSentence": "目上の人",
+  "coloredSentence": "に対して",
+  "lastSentence": "、そういう言い方は失礼ですよ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Nói như thế với cấp trên là thất lễ lắm đó",
+  "grammar": "N + に対して ｜ に対しては ｜ に対しても",
+  "description": "Đối với",
+  "note": "Tuần 4, bài 3.2"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f3c"
+  },
+  "id": 86,
+  "firstSentence": "未成年者の飲酒は、法律",
+  "coloredSentence": "により",
+  "lastSentence": "禁じられている",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Theo pháp luật, trẻ vị thành niên bị cấm uống rượu",
+  "grammar": "Nに + より | よる N",
+  "description": "Theo",
+  "note": "Tuần 4, bài 3.3"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f3d"
+  },
+  "id": 87,
+  "firstSentence": "彼は汚職事件",
+  "coloredSentence": "にかかわって",
+  "lastSentence": "逮捕されたのは",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh ấy bị bắt vì dính dáng tới vụ án tham nhũng",
+  "grammar": "Nに + 関わって | 関わり｜関わる",
+  "description": "Liên quan",
+  "note": "Tuần 4, bài 3.4"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f3e"
+  },
+  "id": 88,
+  "firstSentence": "悪いことと知り",
+  "coloredSentence": "ながら",
+  "lastSentence": "、盗みを繰り返した",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tuy biết việc đó là việc xấu nhưng tôi vẫn cứ lặp lại việc ăn cắp",
+  "grammar": "N | na | Aい | V-ます(bỏ masu) + ながら | ながらも",
+  "description": "Mặc dù, vừa vừa (n4)",
+  "note": "Tuần 4, bài 4.1"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f3f"
+  },
+  "id": 89,
+  "firstSentence": "彼女は忙しいと言い",
+  "coloredSentence": "つつ",
+  "lastSentence": "、長電話をしている",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cô ấy tuy nói mình bận rộn nhưng lúc nào cũng buôn chuyện qua điện thoại",
+  "grammar": "V-ます(bỏ masu) + つつ",
+  "description": "Mặc dù, vừa vừa (cùng nghĩa với ながら nhưng là văn viết)",
+  "note": "Tuần 4, bài 4.2"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f40"
+  },
+  "id": 90,
+  "firstSentence": "医療はますます進歩し",
+  "coloredSentence": "つつある",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Y học đang dần dần phát triển",
+  "grammar": "V-ます(bỏ masu) + つつある",
+  "description": "Dần dần đang",
+  "note": "Tuần 4, bài 4.3"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f41"
+  },
+  "id": 91,
+  "firstSentence": "大学生",
+  "coloredSentence": "のくせして",
+  "lastSentence": "、そんなことも知らないの？",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Sinh viên gì mà lại không biết chuyện đó",
+  "grammar": "Nの | na (だ -> な) + くせして",
+  "description": "Như thế (mang thiên hướng chỉ trích)",
+  "note": "Tuần 4, bài 4.4"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f42"
+  },
+  "id": 92,
+  "firstSentence": "そんなことをす",
+  "coloredSentence": "べきではない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Không nên làm việc đó",
+  "grammar": "Vる + べき + だ | ではない | だった | + N ",
+  "description": "Nên",
+  "note": "Tuần 4, bài 5.1"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f43"
+  },
+  "id": 93,
+  "firstSentence": "いやな仕事でも、生活のために続け",
+  "coloredSentence": "ざるをえない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Vì cuộc sống nên buộc phải tiếp tục công việc mình ghét",
+  "grammar": "V-ない (Bỏ nai) + ざるをえない/  * しない -> せざるをえない",
+  "description": "Bắt buộc",
+  "note": "Tuần 4, bài 5.2"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f44"
+  },
+  "id": 94,
+  "firstSentence": "６０点以上が合格という",
+  "coloredSentence": "ことになっている",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Theo qui định thì trên 60 điểm mới đậu",
+  "grammar": "Vない | Vる | Nという + ことになっている",
+  "description": "Theo qui định",
+  "note": "Tuần 4, bài 5.3"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f45"
+  },
+  "id": 95,
+  "firstSentence": "単なる言い間違い",
+  "coloredSentence": "にすぎない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chẳng qua là nói nhầm thôi mà",
+  "grammar": "Thể thông thường (bỏ だ) + にすぎない",
+  "description": "Chẳng qua là",
+  "note": "Tuần 4, bài 5.4 (Cứng dùng cho văn viết)"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f46"
+  },
+  "id": 96,
+  "firstSentence": "図書館の利用",
+  "coloredSentence": "にあたり",
+  "lastSentence": "、図書カードが必要です。",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Khi sử dụng thư viện cần có thẻ thư viện",
+  "grammar": "Vる | N + にあたりに | あたって",
+  "description": "Nhân lúc, vào lúc",
+  "note": "Tuần 4, bài 6.1"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f47"
+  },
+  "id": 97,
+  "firstSentence": "資料",
+  "coloredSentence": "にそって",
+  "lastSentence": "、ご説明いたします",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi giải thích dựa theo tài liệu",
+  "grammar": "Vる | N + に沿い | に沿って",
+  "description": "Dựa theo",
+  "note": "Tuần 4, bài 6.2"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f48"
+  },
+  "id": 98,
+  "firstSentence": "開店",
+  "coloredSentence": "に先立ち",
+  "lastSentence": "、関係者だけのパーティーが行われた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tổ chức một  buổi tiệc chỉ có những người liên quan tham gia trước khi đóng cửa tiệm",
+  "grammar": "Vる | N + にさきだって | にさきだち",
+  "description": "Trước khi (trước khi làm việc này, phải làm việc kia) cứng dùng cho văn viết",
+  "note": "Tuần 4, bài 6.3"
+},{
+  "_id": {
+    "$oid": "6101280334033144e2ec9f49"
+  },
+  "id": 99,
+  "firstSentence": "わが社は20年間",
+  "coloredSentence": "にわたり",
+  "lastSentence": "この薬の研究開発に努めてきた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Công ty chúng tôi đã phát triển loại thuốc này trong 20 năm",
+  "grammar": "Vる | N + に + わたり | わたって | わたる",
+  "description": "Trong (thời gian, không gian)",
+  "note": "Tuần 4, bài 6.4"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36560"
+  },
+  "id": 100,
+  "firstSentence": "今の実力では、試験に受かり",
+  "coloredSentence": "っこない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Với thực lực hiện tại thì không thể thi nổi đâu",
+  "grammar": "V-ます (bỏ masu) + っこない",
+  "description": "Tuyệt đối không (nghĩa xấu)",
+  "note": "Tuần 5, bài 1.1"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36561"
+  },
+  "id": 101,
+  "firstSentence": "そんなひどいことも、あの人なら言い",
+  "coloredSentence": "かねない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Nếu là người đó thì rất cỏ thể sẽ nói ra chuyện tệ hại như vậy",
+  "grammar": "V-ます (bỏ masu) + かねない",
+  "description": "Có thể (nghĩa xấu) ( giống かもしれません )",
+  "note": "Tuần 5, bài 1.2"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36562"
+  },
+  "id": 102,
+  "firstSentence": "申し訳ありませんが、私にはわかり",
+  "coloredSentence": "かねます",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Thành thật xin lỗi nhưng tôi không thể hiểu nổi",
+  "grammar": "V-ます (bỏ masu) + かねます",
+  "description": "Không thể (Cứng dùng cho văn viết)",
+  "note": "Tuần 5, bài 1.3"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36563"
+  },
+  "id": 103,
+  "firstSentence": "これは信じ",
+  "coloredSentence": "がたい",
+  "lastSentence": "話だが、事実である",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đó là chuyện khó tin nhưng là chuyện có thật",
+  "grammar": "V-ます (bỏ masu) + がたい",
+  "description": "Khó (Cứng dùng cho văn viết)",
+  "note": "Tuần 5, bài 1.4"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36564"
+  },
+  "id": 104,
+  "firstSentence": "ここは桜の名所である",
+  "coloredSentence": "ことから",
+  "lastSentence": "、春には花見客が大勢やってくる",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Vì đây là nơi ngắm hoa anh đào nổi tiếng nên vào mùa xuân có rất nhiều người đến ngắm hoa",
+  "grammar": "Thể thông thường (だ -> な) + ことから",
+  "description": "Vì (văn viết)",
+  "note": "Tuần 5, bài 2.1"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36565"
+  },
+  "id": 105,
+  "firstSentence": "親切な林さん",
+  "coloredSentence": "のことだから",
+  "lastSentence": "、頼めば手伝ってくれるよ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Vì anh Hayashi vốn là người rất thân thiện nên nếu nhờ anh ấy sẽ giúp ",
+  "grammar": "Nの + ことだから",
+  "description": "Vì là (diễn tả đặc điểm)",
+  "note": "Tuần 5, bài 2.2"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36566"
+  },
+  "id": 106,
+  "firstSentence": "雨は休む",
+  "coloredSentence": "ことなく",
+  "lastSentence": "降り続いた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Mưa rơi mãi mà không ngừng",
+  "grammar": "Vる + ことなく",
+  "description": "Mà không",
+  "note": "Tuần 5, bài 2.3"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36567"
+  },
+  "id": 107,
+  "firstSentence": "やってみ",
+  "coloredSentence": "ないことには",
+  "lastSentence": "、できるかどうかわから",
+  "coloredSentenceOption": "ない",
+  "lastSentenceOption": "",
+  "meaning": "Nếu chưa làm thử thì làm sao biết dược làm được hay không",
+  "grammar": "Vない1 + ことには...vない2",
+  "description": "Nếu không...thì không",
+  "note": "Tuần 5, bài 2.4"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36568"
+  },
+  "id": 108,
+  "firstSentence": "相手のチームは弱い。勝って",
+  "coloredSentence": "当然だ",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đội địch yêu thì đương nhiên là chúng ta thắng rồi",
+  "grammar": "Vて | Aくて | naで + とうぜんだ | 当たり前だ",
+  "description": "Đương nhiên",
+  "note": "Tuần 5, bài 3.1"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36569"
+  },
+  "id": 109,
+  "firstSentence": "君が裏切ったのだから、彼女が怒る",
+  "coloredSentence": "のももっともだ",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh đã phản bội thì cô ấy tức giận là chuyện đương nhiên",
+  "grammar": "Vる | Aい | Naな + の + も | は + もっともだ",
+  "description": "Đương nhiên",
+  "note": "Tuần 5, bài 3.2"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce3656a"
+  },
+  "id": 110,
+  "firstSentence": "この車は中古車といっても新品",
+  "coloredSentence": "（も）同然だ",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cái xe này là đồ cũ mà gần như là hàng mới",
+  "grammar": "V-thông thường | N + もどうぜんだ | どうぜんの N",
+  "description": "Gần như",
+  "note": "Tuần 5, bài 3.3"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce3656b"
+  },
+  "id": 111,
+  "firstSentence": "君は仕事がある",
+  "coloredSentence": "だけましだ",
+  "lastSentence": "よ。俺は首になってしまった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh có việc còn may. Tôi vừa bị đuổi việc đây này",
+  "grammar": "Thể thông thường (だ->な) + だけましだ",
+  "description": "Tốt lắm rồi",
+  "note": "Tuần 5, bài 3.4"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce3656c"
+  },
+  "id": 112,
+  "firstSentence": "ここは一流ホテル",
+  "coloredSentence": "だけあって",
+  "lastSentence": "快適だった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Quả là khách sạn hạng sang, rất là thoải mái",
+  "grammar": "Thể thông thường | na(だ->な) | N + だけあって｜だけに｜だけのことはある",
+  "description": "Quả là",
+  "note": "Tuần 5, bài 4.1"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce3656d"
+  },
+  "id": 113,
+  "firstSentence": "あの人は、学校の成績がいい",
+  "coloredSentence": "ばかりか",
+  "lastSentence": "スポーツ",
+  "coloredSentenceOption": "も",
+  "lastSentenceOption": "できる",
+  "meaning": "Người đó chẳng những thành tích tốt mà con chơi thể thao giỏi nữa",
+  "grammar": "Thể thông thường | na(だ->な) | Nだ + ばかりか ｜ ばかりでなく...も",
+  "description": "Quả là",
+  "note": "Tuần 5, bài 4.2"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce3656e"
+  },
+  "id": 114,
+  "firstSentence": "あの人は、学校の成績がいい",
+  "coloredSentence": "ばかりか",
+  "lastSentence": "スポーツ",
+  "coloredSentenceOption": "も",
+  "lastSentenceOption": "できる",
+  "meaning": "Người đó chẳng những thành tích tốt mà con chơi thể thao giỏi nữa",
+  "grammar": "Thể thông thường | na(だ->な) | Nだ + ばかりか ｜ ばかりでなく...も",
+  "description": "Quả là",
+  "note": "Tuần 5, bài 4.3"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce3656f"
+  },
+  "id": 115,
+  "firstSentence": "あの飛行機に乗った",
+  "coloredSentence": "ばかりに",
+  "lastSentence": "、彼は死んだ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chỉ vì lên chiếc máy bay đó mà anh ấy mới chết",
+  "grammar": "Thể thông thường (bỏ だ)- + ばかりに",
+  "description": "Chỉ vì (ý xấu)",
+  "note": "Tuần 5, bài 4.4"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36570"
+  },
+  "id": 116,
+  "firstSentence": "今日はお祝いだ。みんなで飲もう",
+  "coloredSentence": "ではないか",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Hôm nay là lễ. Mọi người cùng uống rượu nào",
+  "grammar": "Vよう + ではないか | じゃないか",
+  "description": "Chúng ta hãy (cứng) (cách nói mạnh mẽ của nam)",
+  "note": "Tuần 5, bài 5.1"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36571"
+  },
+  "id": 117,
+  "firstSentence": "何と言ったらいいのか、言い",
+  "coloredSentence": "ようがない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Không biết nên nói như thế nào cho phải đây",
+  "grammar": "V-ます(bỏ masu) + ようがない | ようもない",
+  "description": "Không có cách nào (giống 仕方がない)",
+  "note": "Tuần 5, bài 5.2"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36572"
+  },
+  "id": 118,
+  "firstSentence": "怖いものでも見た",
+  "coloredSentence": "かのように",
+  "lastSentence": "、彼女は震えていた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cô ấy run lẩy bẩy như nhìn thấy thứ gì đáng sợ",
+  "grammar": "Thể thông thường + かのようだ | かのように~",
+  "description": "Như là (Giống みたい)",
+  "note": "Tuần 5, bài 5.3"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36573"
+  },
+  "id": 119,
+  "firstSentence": "最近仕事がすごく忙しくて、同窓会に行け",
+  "coloredSentence": "そうにない",
+  "lastSentence": "よ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Dạo gần đây công việc cực kì bận rộn, khó mà đi họp lớp được",
+  "grammar": "V-ます (bỏ masu) + そうにない | そうもない",
+  "description": "Khó",
+  "note": "Tuần 5, bài 5.4"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36574"
+  },
+  "id": 120,
+  "firstSentence": "A氏は日本を訪問する",
+  "coloredSentence": "に際して",
+  "lastSentence": "、喜びを語った。",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh A đã kể về niềm vui của mình nhân dịp đến thăm Nhật Bản",
+  "grammar": "Vる | N + にさいして | にさいし ｜ さいしては",
+  "description": "Nhân dịp, vào lúc, khi",
+  "note": "Tuần 5, bài 6.1"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36575"
+  },
+  "id": 121,
+  "firstSentence": "この工事は市の計画",
+  "coloredSentence": "に基づいて",
+  "lastSentence": "進められます。",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Công trình này được tiến hành dựa theo kế hoạch của thành phố",
+  "grammar": "N + にもとづいて | にもとづき ｜ にもとづく N",
+  "description": "Dựa trên, dựa theo",
+  "note": "Tuần 5, bài 6.2"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36576"
+  },
+  "id": 122,
+  "firstSentence": "テスト結果に基づき、能力",
+  "coloredSentence": "に応じた",
+  "lastSentence": "クラスに分けられます。",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Phân chia lớp tương ứng với năng lục dựa trên kết quả kiểm tra",
+  "grammar": "Nにおうじて | おうじ ｜ おうじた N",
+  "description": "Dựa trên, dựa theo",
+  "note": "Tuần 5, bài 6.3"
+},{
+  "_id": {
+    "$oid": "6107a2d69a68eebe3ce36577"
+  },
+  "id": 123,
+  "firstSentence": "子供たちが大空",
+  "coloredSentence": "の下で",
+  "lastSentence": "元気に遊んでいる。",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Bọn trẻ đang đùa vui vẻ dưới bầu trời xanh",
+  "grammar": "Nの + もとで | もと | もとに",
+  "description": "Dưới",
+  "note": "Tuần 5, bài 6.4"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91cb"
+  },
+  "id": 124,
+  "firstSentence": "日本に来て",
+  "coloredSentence": "以来",
+  "lastSentence": "、母の料理を食べていない",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Kể từ sau khi đến Nhật, không còn được tăn thức ăn mẹ nấu nữa",
+  "grammar": "N | Vて | それ | あれ + いらい",
+  "description": "Kể từ sau",
+  "note": "Tuần 6, bài 1.1"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91cc"
+  },
+  "id": 125,
+  "firstSentence": "試験を受ける",
+  "coloredSentence": "以上",
+  "lastSentence": "、いい点を取りたい",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Một khi đã thi thì muốn đạt điểm cao",
+  "grammar": "V thông thường + いじょうい | じょうは",
+  "description": "Một khi đã (Thể hiện ý muốn làm đến cùng)",
+  "note": "Tuần 6, bài 1.2"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91cd"
+  },
+  "id": 126,
+  "firstSentence": "約束した",
+  "coloredSentence": "からには",
+  "lastSentence": "、守るべきだ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Một khi đã hứa thì phải giữ lời",
+  "grammar": "Vる | Vた + からには",
+  "description": "Một khi đã",
+  "note": "Tuần 6, bài 1.3"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91ce"
+  },
+  "id": 127,
+  "firstSentence": "来日の",
+  "coloredSentence": "折には",
+  "lastSentence": "、ぜひこちらにお立ち寄りください",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Khi có dịp đến Nhật, nhất định phải ghé nhà tôi đó",
+  "grammar": "Vる | Vた | Nの + おり(に)は",
+  "description": "Khi, dịp",
+  "note": "Tuần 6, bài 1.4"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91cf"
+  },
+  "id": 128,
+  "firstSentence": "客の立場",
+  "coloredSentence": "から言うと",
+  "lastSentence": "、この店は入り口が狭くて入りにくい。しかし、店の側",
+  "coloredSentenceOption": "から言えば",
+  "lastSentenceOption": "管理しやすい",
+  "meaning": "Theo ý kiến của khách hàng thì tiệm này cửa vào hẹp nên khó vào. tuy nhiên, theo lập trường của tiệm thì như vậy dễ quản lý",
+  "grammar": "N + からいうと | からいえば",
+  "description": "Nếu nói theo",
+  "note": "Tuần 6, bài 2.1"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d0"
+  },
+  "id": 129,
+  "firstSentence": "症状",
+  "coloredSentence": "からすると",
+  "lastSentence": "、心臓の病気かもしれません",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Căng cứ theo triệu chứng, có thể đó là bệnh tim mạch",
+  "grammar": "N + から + すると | すれば | いって",
+  "description": "Căn cứ theo",
+  "note": "Tuần 6, bài 2.2"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d1"
+  },
+  "id": 130,
+  "firstSentence": "彼は服装",
+  "coloredSentence": "からして",
+  "lastSentence": "だらしない。きっと、ほかの面も同じだろう",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh ấy quần áo không thôi đã thấy luộm thuộm rồi. Chắc chắn những mặc khác có lẽ cũng giống vậy",
+  "grammar": "N + からして",
+  "description": "Không thôi (lấy 1 cái làm tiêu biểu)",
+  "note": "Tuần 6, bài 2.3"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d2"
+  },
+  "id": 131,
+  "firstSentence": "日本の習慣には、外国人",
+  "coloredSentence": "からみると",
+  "lastSentence": "妙なものもあるだろう",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Theo góc nhìn của người nước ngoài thì tập quán của Nhật Bản cũng có một số điều khác lạ",
+  "grammar": "Nから + みると | みれば | みて | みても",
+  "description": "Theo góc nhìn",
+  "note": "Tuần 6, bài 2.4"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d3"
+  },
+  "id": 132,
+  "firstSentence": "好きだ",
+  "coloredSentence": "からといって",
+  "lastSentence": "、同じ食品ばかり食べるのはよくない",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cho dù thích đi nữa mà cứ ăn hoài một món ăn thì cũng không tốt lắm đâu",
+  "grammar": "Thể thông thường + からといって | からって",
+  "description": "Cho dù",
+  "note": "Tuần 6, bài 3.1"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d4"
+  },
+  "id": 133,
+  "firstSentence": "手続きし",
+  "coloredSentence": "てからでないと",
+  "lastSentence": "、図書館の本は借りられない",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Nếu không làm thủ tục thì không thể mượn sách ở thư viện này được",
+  "grammar": "V + てからで + ないと... ~できない | なければ... ~できない",
+  "description": "Nếu không",
+  "note": "Tuần 6, bài 3.2"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d5"
+  },
+  "id": 1331,
+  "firstSentence": "私は、２００７年",
+  "coloredSentence": "から",
+  "lastSentence": "２００９年",
+  "coloredSentenceOption": "にかけて",
+  "lastSentenceOption": "、ロンドンに住んでいました",
+  "meaning": "Tôi sống ở London từ 2007 tới 2009",
+  "grammar": "N + にかけて (Giống với まで)",
+  "description": "Từ...dến (Khoảng cách, thời gian đều được)",
+  "note": "Tuần 6, bài 3.3"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d6"
+  },
+  "id": 134,
+  "firstSentence": "足の速さ",
+  "coloredSentence": "にかけて",
+  "lastSentence": "、彼は町で一番だ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Nếu bàn đến chạy nhanh thì anh ấy đứng nhất thị trấn",
+  "grammar": "N + Aさ + にかけては",
+  "description": "Nếu bàn đến",
+  "note": "Tuần 6, bài 3.4"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d7"
+  },
+  "id": 135,
+  "firstSentence": "今夜の花大会は、雨で中止だ",
+  "coloredSentence": "とか",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Nghe nói đại hội pháo hoa tối nay sẽ bị hoãn vì trời mưa",
+  "grammar": "Thể thông thường + とか",
+  "description": "Nghe nói (Mơ hồ hơn ～そうだ)",
+  "note": "Tuần 6, bài 4.1"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d8"
+  },
+  "id": 136,
+  "firstSentence": "あんなひどいところ、二度と行く",
+  "coloredSentence": "まい",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi sẽ không bao giờ đi tới cái chốn tệ hại đó lần thứ hai",
+  "grammar": "Vる + まい *Chú ý :し -> すまい, き -> こまい",
+  "description": "Quyết không (cứng)",
+  "note": "Tuần 6, bài 4.2"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91d9"
+  },
+  "id": 137,
+  "firstSentence": "彼には私の気持ちはわかる",
+  "coloredSentence": "まい",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh ấy chắc là không thể nào hiểu cảm giác của tôi",
+  "grammar": "Vる + まい *Chú ý :し -> すまい, き -> こまい",
+  "description": "Chắc là không (cứng)",
+  "note": "Tuần 6, bài 4.3"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91da"
+  },
+  "id": 138,
+  "firstSentence": "本当のことを話そう",
+  "coloredSentence": "か",
+  "lastSentence": "話す",
+  "coloredSentenceOption": "まいか",
+  "lastSentenceOption": "迷ったが、結局全部話した",
+  "meaning": "Phân vân không biết nên nói sự thật hay không, cuối cùng đã nói hết toàn bộ",
+  "grammar": "Vようか...Vるまい *Chú ý :し -> すまい, き -> こまい",
+  "description": "Có hay không",
+  "note": "Tuần 6, bài 4.4"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91db"
+  },
+  "id": 139,
+  "firstSentence": "あのチームが勝つ",
+  "coloredSentence": "に決まっている",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đội kia chắc chắn thắng",
+  "grammar": "Thể thông thường (bỏ だ) + にきまっている (văn nói) | ちがいない | そういない (cứng)",
+  "description": "Chắc chắn",
+  "note": "Tuần 6, bài 5.1"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91dc"
+  },
+  "id": 140,
+  "firstSentence": "相手が弱いチームであっても、必ず勝つ",
+  "coloredSentence": "とは限らない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cho dù đội đối phương yếu đi nữa thì cũng chưa chắc là sẽ thắng",
+  "grammar": "Thể thông thường + とはかぎらない",
+  "description": "Không chắc",
+  "note": "Tuần 6, bài 5.2"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91dd"
+  },
+  "id": 141,
+  "firstSentence": "全力をつくした。あとは祈る",
+  "coloredSentence": "（より）ほかない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi đã cố gắng hết sức. Giờ chỉ còn cách là cầu nguyện",
+  "grammar": "Vる | Vるより + ほかない | ほかはない (=しかない)",
+  "description": "Không còn cách nào khác (cứng)",
+  "note": "Tuần 6, bài 5.3"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91de"
+  },
+  "id": 142,
+  "firstSentence": "合格したのは、彼の努力の結果",
+  "coloredSentence": "にほかならない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh ấy thi đậu chính là thàn quả nỗ lực của anh ấy",
+  "grammar": "N + にほかならない",
+  "description": "Chính là vì (cứng)",
+  "note": "Tuần 6, bài 5.4"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91df"
+  },
+  "id": 143,
+  "firstSentence": "会議には中国",
+  "coloredSentence": "をはじめ",
+  "lastSentence": "、アジアの国々が参加した",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đầu tiên là Trung Quốc rồi tới các nước Châu Á khác tham gia vào hội nghị",
+  "grammar": "Nを + はじめ | はじめとして | はじめとする",
+  "description": "Đầu tiên (dùng để liệt kê)",
+  "note": "Tuần 6, bài 6.1"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91e0"
+  },
+  "id": 144,
+  "firstSentence": "教育制度",
+  "coloredSentence": "をめぐって",
+  "lastSentence": "諸問題について、話し合う",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Hãy cùng bàn bạc về vấn đề xoay quanh chế độ giáo dục",
+  "grammar": "Nを + めぐって | めぐる",
+  "description": "Xoay quanh",
+  "note": "Tuần 6, bài 6.2"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91e1"
+  },
+  "id": 145,
+  "firstSentence": "京都",
+  "coloredSentence": "においで",
+  "lastSentence": "、シンポジウムが行われた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Buổi hội thảo được tổ chức ở Kyoto",
+  "grammar": "Nに + おいて | おいては | おける",
+  "description": "Tại, ở (cứng)",
+  "note": "Tuần 6, bài 6.3"
+},{
+  "_id": {
+    "$oid": "610ac23b794944c6e16e91e2"
+  },
+  "id": 146,
+  "firstSentence": "現地",
+  "coloredSentence": "にて",
+  "lastSentence": "解散となります",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chúng ta sẽ giải tán tại chỗ",
+  "grammar": "Nにて",
+  "description": "Ở, qua (cứng thường dùng trong thông báo hoặc thư từ)",
+  "note": "Tuần 6, bài 6.4"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7731"
+  },
+  "id": 147,
+  "firstSentence": "彼女は一目",
+  "coloredSentence": "もかまわず",
+  "lastSentence": "子供のように泣いた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cô ấy khóc như một đứa trẻ bất chấp ánh mắt của mọi người",
+  "grammar": "Nも | Vるの + も構わず",
+  "description": "Không quan tâm ( = かまいません)",
+  "note": "Tuần 7, bài 1.1"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7732"
+  },
+  "id": 148,
+  "firstSentence": "雨",
+  "coloredSentence": "にもかかわらず",
+  "lastSentence": "、大勢の人々が集まった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Mặc dù trời mưa nhưng có rất đông người tụ tập",
+  "grammar": "Thể thông thường (bỏ だ) にも + かかわらず",
+  "description": "Mặc dù",
+  "note": "Tuần 7, bài 1.2"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7733"
+  },
+  "id": 149,
+  "firstSentence": "来る来ない",
+  "coloredSentence": "にかかわらず",
+  "lastSentence": "、連絡をください",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Bất kể đến hay không đến, hãy liên lạc",
+  "grammar": "Thể thông thường (bỏ だ)  + にかかわらず",
+  "description": "Không quan tâm ( = かまいません)",
+  "note": "Tuần 7, bài 1.3"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7734"
+  },
+  "id": 150,
+  "firstSentence": "年齢",
+  "coloredSentence": "を問わず",
+  "lastSentence": "多くの人々が集まった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tập hợp nhiều người bất kể tuổi tác",
+  "grammar": "Nを + とわず",
+  "description": "Bất kể",
+  "note": "Tuần 7, bài 1.4"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7735"
+  },
+  "id": 151,
+  "firstSentence": "机の上は本",
+  "coloredSentence": "やら",
+  "lastSentence": "ノート",
+  "coloredSentenceOption": "やら",
+  "lastSentenceOption": "でいっぱいだ",
+  "meaning": "Trên bàn có rất nhiều thứ nào là sách, nào là vở,...",
+  "grammar": " a + やら... b + やら",
+  "description": "Nào là",
+  "note": "Tuần 7, bài 2.1"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7736"
+  },
+  "id": 152,
+  "firstSentence": "写真を見る",
+  "coloredSentence": "につけ",
+  "lastSentence": "（、歌を聴く",
+  "coloredSentenceOption": "につけ",
+  "lastSentenceOption": "）、国を思い出す",
+  "meaning": "Hễ mà thấy tấm hình (hễ mà nghe bài hát) là thấy nhớ quê hương",
+  "grammar": "Vる | Aい + につけ",
+  "description": "Hễ mà, dù... dù",
+  "note": "Tuần 7, bài 2.2"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7737"
+  },
+  "id": 153,
+  "firstSentence": "行く",
+  "coloredSentence": "にしろ",
+  "lastSentence": "行かない",
+  "coloredSentenceOption": "にしろ",
+  "lastSentenceOption": "、連絡してください",
+  "meaning": "Dù đi hay không đi thì hãy liên lạc",
+  "grammar": "Thể thông thường (bỏ だ) + にしろ | にせよ",
+  "description": "Dù... dù",
+  "note": "Tuần 7, bài 2.3"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7738"
+  },
+  "id": 154,
+  "firstSentence": "私は歌",
+  "coloredSentence": "も",
+  "lastSentence": "へたならダンス",
+  "coloredSentenceOption": "も",
+  "lastSentenceOption": "下手だ",
+  "meaning": "Tôi vừa hát dở mà nhảy cũng tệ",
+  "grammar": "Nも + Thể điều kiện + Nも + V|A|N (tùy vào thể điều kiện)",
+  "description": "Vừa...vừa",
+  "note": "Tuần 7, bài 2.4"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7739"
+  },
+  "id": 155,
+  "firstSentence": "薬は苦い",
+  "coloredSentence": "ものだ",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Thuốc đắng là đương nhiên",
+  "grammar": "Thể thông thường + ものだ | もんだ",
+  "description": "Vốn dĩ",
+  "note": "Tuần 7, bài 3.1a"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c773a"
+  },
+  "id": 156,
+  "firstSentence": "あなたの国へ行ってみたい",
+  "coloredSentence": "ものだ",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi rất muốn đi đến đát nước của bạn",
+  "grammar": "Thể thông thường + ものだ | もんだ",
+  "description": "Hi vọng",
+  "note": "Tuần 7, bài 3.1b"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c773b"
+  },
+  "id": 157,
+  "firstSentence": "目上の人にそんな言い方をする",
+  "coloredSentence": "ものではない",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Không nên nói như vậy với cấp trên",
+  "grammar": "Vる + ものではない | もんじゃない",
+  "description": "Không nên",
+  "note": "Tuần 7, bài 3.2"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c773c"
+  },
+  "id": 158,
+  "firstSentence": "夜中に電話をしてくるのは非常識",
+  "coloredSentence": "というものだ",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Gọi điện thoại vào lúc nửa đêm thì không bình thường một chút nào",
+  "grammar": "Vる | na | N + というものだ | というもんだ",
+  "description": "Bổ sung thêm sắc thái",
+  "note": "Tuần 7, bài 3.3"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c773d"
+  },
+  "id": 159,
+  "firstSentence": "あんな店、二度と行く",
+  "coloredSentence": "ものか",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Không có chuyện quay lại cái tiệm như vậy lần thứ hai",
+  "grammar": "Thể thông thường + ものか | もんか",
+  "description": "Không có chuyện",
+  "note": "Tuần 7, bài 3.4"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c773e"
+  },
+  "id": 160,
+  "firstSentence": "この店はスキー用品",
+  "coloredSentence": "を中心とした",
+  "lastSentence": "スポーツ専門店です",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tiệm này chuyên bán đồ thể thao mà chủ yếu là đồ trượt tuyết",
+  "grammar": "Nを + ちゅうしんに | ちゅうしんにして | ちゅうしんとして | ちゅうしんとした N",
+  "description": "Chủ yếu",
+  "note": "Tuần 7, bài 4.1"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c773f"
+  },
+  "id": 161,
+  "firstSentence": "感謝の気持ちを",
+  "coloredSentence": "をこめて",
+  "lastSentence": "編んだマフラーです",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đây là cái khăn choàng mà tôi đã đan hết bằng tất cả lòng biết ơn",
+  "grammar": "Nを + 込めて",
+  "description": "Bằng cả",
+  "note": "Tuần 7, bài 4.2"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7740"
+  },
+  "id": 162,
+  "firstSentence": "友人",
+  "coloredSentence": "を通じて",
+  "lastSentence": "彼と知り合った",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi đã biết anh ta thông qua một người bạn",
+  "grammar": "Nを + つうじて | とおして",
+  "description": "Thông qua",
+  "note": "Tuần 7, bài 4.3"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7741"
+  },
+  "id": 163,
+  "firstSentence": "祖父はつえ",
+  "coloredSentence": "を頼りにして",
+  "lastSentence": "歩いている",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Ông của tôi đi bộ dựa vào cây gậy",
+  "grammar": "Nを + たよりに V | たよりとして | たよりにして",
+  "description": "Dựa vào",
+  "note": "Tuần 7, bài 4.4"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7742"
+  },
+  "id": 164,
+  "firstSentence": "地震の際には、窓ガラスが割れたり壁が倒れたりする",
+  "coloredSentence": "恐れがある",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Khi có động đát, e rằng của kính sẽ bị vỡ và tường sẽ bị sập",
+  "grammar": "Vる | Nの + おそれがある",
+  "description": "E rằng(cứng)",
+  "note": "Tuần 7, bài 5.1"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7743"
+  },
+  "id": 165,
+  "firstSentence": "彼の歌には心にひびく",
+  "coloredSentence": "ものがある",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Trong bài hát của anh ấy có gì đó làm rung động lòng người",
+  "grammar": "Vる | Aい | naな + ものがある",
+  "description": "Có gì đó(cứng)",
+  "note": "Tuần 7, bài 5.2"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7744"
+  },
+  "id": 166,
+  "firstSentence": "なんでも多けれ",
+  "coloredSentence": "ば",
+  "lastSentence": "いい",
+  "coloredSentenceOption": "というものでもない",
+  "lastSentenceOption": "",
+  "meaning": "Không phải cái gì nhiều cũng tốt",
+  "grammar": "Thê điều kiện + A | N + という + ものでもない | ものではない",
+  "description": "Không phải là (cứng)",
+  "note": "Tuần 7, bài 5.3"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7745"
+  },
+  "id": 167,
+  "firstSentence": "デジカメらが壊れる。",
+  "coloredSentence": "（なんとか）",
+  "lastSentence": "直ら",
+  "coloredSentenceOption": "ないものだろうか",
+  "lastSentenceOption": "",
+  "meaning": "Máy ảnh dã bị hư. Muốn làm cái gì đó để sửa",
+  "grammar": "（どうにか）|（なんとか）|（もうすこし）+ Vないもの（だろう）か",
+  "description": "Ước gì (cứng)",
+  "note": "Tuần 7, bài 5.4"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7746"
+  },
+  "id": 168,
+  "firstSentence": "この小説は事実",
+  "coloredSentence": "をもとに",
+  "lastSentence": "書かれた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cuốn tiểu thuyết này được viết dựa trên sự thật",
+  "grammar": "Nを + もとに | もとにして",
+  "description": "Dựa trên",
+  "note": "Tuần 7, bài 6.1"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7747"
+  },
+  "id": 169,
+  "firstSentence": "この機械はまだ今調整中",
+  "coloredSentence": "につき",
+  "lastSentence": "、ご使用になれません",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cái máy này hiện đang bảo trì nên không thể sử dụng được",
+  "grammar": "N + につき",
+  "description": "Vì (cứng)",
+  "note": "Tuần 7, bài 6.2"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7748"
+  },
+  "id": 170,
+  "firstSentence": "病気",
+  "coloredSentence": "をきっかけに",
+  "lastSentence": "酒をやめた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi bỏ rượu vì bệnh",
+  "grammar": "Nを + きっかけに | 契機に",
+  "description": "Nhân cơ hội, vì",
+  "note": "Tuần 7, bài 6.3"
+},{
+  "_id": {
+    "$oid": "610e9f69f92a9a5c570c7749"
+  },
+  "id": 171,
+  "firstSentence": "受験",
+  "coloredSentence": "際に",
+  "lastSentence": "写真が必要です",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Khi thi cần có ảnh",
+  "grammar": "V thông thường | Nの + さいに",
+  "description": "Lúc (cứng)",
+  "note": "Tuần 7, bài 6.4"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d23"
+  },
+  "id": 172,
+  "firstSentence": "この時計は高かった。",
+  "coloredSentence": "それなのに",
+  "lastSentence": "すぐに壊れた",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cái đồng hồ này đắt tiền. Vậy mà nhanh hư",
+  "grammar": "a + それなのに + b ( = ところが | のに)",
+  "description": "Vậy mà",
+  "note": "Tuần 8, bài 1.1"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d24"
+  },
+  "id": 173,
+  "firstSentence": "外は大雨だ。",
+  "coloredSentence": "それでも",
+  "lastSentence": "出かけないといけない",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Ngoài trời mưa to. Tuy vậy tôi vẫn phải đi ra ngoài",
+  "grammar": "a + それでも + b (= だけど | けれども | しかし)",
+  "description": "Tuy vậy",
+  "note": "Tuần 8, bài 1.2"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d25"
+  },
+  "id": 174,
+  "firstSentence": "道がすごく渋滞しているようだよ。",
+  "coloredSentence": "それなら",
+  "lastSentence": "電車で行こう",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đường có vẻ kẹt xe dữ quá ha. Vậy thì đi xe điện thôi nào",
+  "grammar": "a + それなら（ば）+ b (= じゃ | それじゃ)",
+  "description": "Vậy thì",
+  "note": "Tuần 8, bài 1.3"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d26"
+  },
+  "id": 175,
+  "firstSentence": "父は働きすぎた。",
+  "coloredSentence": "それで",
+  "lastSentence": "病気になった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Ba tôi làm việc quá nhiều. Vì vậu ông đã bị bệnh",
+  "grammar": "a + それで+ b (= だから | そのために)",
+  "description": "Vì vậy",
+  "note": "Tuần 8, bài 1.4a"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d27"
+  },
+  "id": 176,
+  "firstSentence": "今日、面接を受けたんだ",
+  "coloredSentence": "で、",
+  "lastSentence": "どうだった？",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Hôm nay tôi có buổi phỏng vấn. Vậy hả, kết quả sao rồi?",
+  "grammar": "a + それで／で + b",
+  "description": "Vậy hả",
+  "note": "Tuần 8, bài 1.4b"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d28"
+  },
+  "id": 177,
+  "firstSentence": "タバコをやめると誓った",
+  "coloredSentence": "それが、",
+  "lastSentence": "たった三日でまた吸ってしまった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đã thề là bỏ thuốc lá. Vậy mà tôi đã hút lại chỉ sau 3 ngày",
+  "grammar": "a + それが + b",
+  "description": "Vậy mà",
+  "note": "Tuần 8, bài 2.1"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d29"
+  },
+  "id": 178,
+  "firstSentence": "明日は車が混むらしい",
+  "coloredSentence": "そこで",
+  "lastSentence": "我々は朝早く出発するつもりだ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Ngày mai sẽ đông xe. Vì vậy chúng tôi định sẽ xuất phát từ sáng sớm",
+  "grammar": "a + そこで + b (= それで)",
+  "description": "Vì vậy",
+  "note": "Tuần 8, bài 2.2"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d2a"
+  },
+  "id": 179,
+  "firstSentence": "いい家ですね。",
+  "coloredSentence": "そういえば",
+  "lastSentence": "、お父様は設計士さんでしたよね",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Ngôi nhà đẹp nhỉ, nhắc mới nhớ ba anh là kiến trúc sư phải không",
+  "grammar": "a + そういえば + b",
+  "description": "Nhắc mới nhớ",
+  "note": "Tuần 8, bài 2.3"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d2b"
+  },
+  "id": 180,
+  "firstSentence": "春になりましたね。",
+  "coloredSentence": "それはそうと",
+  "lastSentence": "、田中さんの息子さん、大学受かったでしょうか",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Mùa xuân đã đến rồi ha? Mà này, con trai của ông Tanaka đậu học rồi phải không?",
+  "grammar": "a + それはそうと + b",
+  "description": "Mà này (Dùng khi đổi chủ đề)",
+  "note": "Tuần 8, bài 2.4"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d2c"
+  },
+  "id": 181,
+  "firstSentence": "母の兄、",
+  "coloredSentence": "すなわち",
+  "lastSentence": "僕のおじですが",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh trai của mẹ, hay nói cách khác là cậu của tôi",
+  "grammar": "a + すなわち + b",
+  "description": "Tức là",
+  "note": "Tuần 8, bài 3.1"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d2d"
+  },
+  "id": 182,
+  "firstSentence": "ファクス、",
+  "coloredSentence": "あるいは",
+  "lastSentence": "メールでお知らせください",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Vui lòng thông báo bằng Fax hoặc Email",
+  "grammar": "a + あるいは + b",
+  "description": "Hoặc",
+  "note": "Tuần 8, bài 3.2"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d2e"
+  },
+  "id": 183,
+  "firstSentence": "これは難しい挑戦だ。",
+  "coloredSentence": "だが",
+  "lastSentence": "失敗を恐れてはいけない",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đây là thử thách khó khăn. Tuy nhiên không được lo sợ thất bại",
+  "grammar": "a + だが + b",
+  "description": "Tuy nhiên",
+  "note": "Tuần 8, bài 3.3"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d2f"
+  },
+  "id": 184,
+  "firstSentence": "何を怒ってるの？",
+  "coloredSentence": "だって",
+  "lastSentence": "、約束を破ったじゃないか",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Sao lại nổi giận vậy? Tại vì không giữ lời hứa đó",
+  "grammar": "a + だって + b",
+  "description": "Tại vì (Văn nói)",
+  "note": "Tuần 8, bài 3.4"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d30"
+  },
+  "id": 185,
+  "firstSentence": "彼は、まだ来ませんね。",
+  "coloredSentence": "ということは",
+  "lastSentence": "、欠席ということですね",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Anh ấy vẫn chưa đến ha. Nghĩa là vắng mặt rồi ha",
+  "grammar": "a + ということは + b (= つまり)",
+  "description": "Nghĩa là",
+  "note": "Tuần 8, bài 4.1"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d31"
+  },
+  "id": 186,
+  "firstSentence": "今日は家を出られないんです。",
+  "coloredSentence": "というのは",
+  "lastSentence": "父の具合が悪くなりまして...。",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Hôm nay tôi không thể ra khỏi nhà được. Là vì ba tôi không được khỏe",
+  "grammar": "a + というのは + b (= なぜかというと | どうしてかというと)",
+  "description": "Là vì",
+  "note": "Tuần 8, bài 4.2"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d32"
+  },
+  "id": 187,
+  "firstSentence": "教授は急用で来られません。",
+  "coloredSentence": "したがって",
+  "lastSentence": "講義は中止です",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Giảng viên có việc gấp nên không đến được. Vì vậy mà giờ học bị hủy",
+  "grammar": "a + したがって + b (= だから | その結果)",
+  "description": "Vì vậy (cứng)",
+  "note": "Tuần 8, bài 4.3"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d33"
+  },
+  "id": 188,
+  "firstSentence": "品はいい。",
+  "coloredSentence": "ただし",
+  "lastSentence": "値段が高すぎる",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chất lượng thì tốt. Tuy nhiên giá quá cao",
+  "grammar": "a + ただし + b (= だから | その結果)",
+  "description": "Tuy nhiên (cứng)",
+  "note": "Tuần 8, bài 4.4"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d34"
+  },
+  "id": 189,
+  "firstSentence": "検査の前夜から飲食禁止です。",
+  "coloredSentence": "もっとも",
+  "lastSentence": "水は飲んでも構いません",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Không được ăn gì từ đêm trước buổi khám. Tuy nhiên uống nước thì không sao",
+  "grammar": "a + もっとも + b (= ただし)",
+  "description": "Tuy nhiên",
+  "note": "Tuần 8, bài 5.1"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d35"
+  },
+  "id": 190,
+  "firstSentence": "この件の説明は以上です。",
+  "coloredSentence": "なお",
+  "lastSentence": "詳細についてはプリントをご覧ください。",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tôi đã giải thích xong vấn đề này. Ngoài ra, chi tiết vui lòng xem bản in",
+  "grammar": "a + なお + b",
+  "description": "Ngoài ra",
+  "note": "Tuần 8, bài 5.2"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d36"
+  },
+  "id": 191,
+  "firstSentence": "以上、今日のニュースをおつたえしました。",
+  "coloredSentence": "さて",
+  "lastSentence": "次に天気予報です",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Tin tức của ngày hôm nay đến đây là hết. Tiếp theo là dự báo thời tiết",
+  "grammar": "a + さて + b",
+  "description": "Sau đây, nào (dùng để đổi chủ đề)",
+  "note": "Tuần 8, bài 5.3"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d37"
+  },
+  "id": 192,
+  "firstSentence": "薬を塗った",
+  "coloredSentence": "すると",
+  "lastSentence": "痛みが治まった",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Đã bôi thuốc. Ngay lập tức cơn đau dứt ngay",
+  "grammar": "a + すると + b",
+  "description": "Ngay sau khi",
+  "note": "Tuần 8, bài 5.4"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d38"
+  },
+  "id": 193,
+  "firstSentence": "試合に大負けした。",
+  "coloredSentence": "要するに",
+  "lastSentence": "相手のチームと力の差があったということだ",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Chúng ta đã thua hoàn toàn. Tóm lại là đội đối phương có thực lực hơn nhiều",
+  "grammar": "a + ようするに + b (= つまり)",
+  "description": "Tóm lại",
+  "note": "Tuần 8, bài 6.1"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d39"
+  },
+  "id": 194,
+  "firstSentence": "彼女は美人で頭がいい",
+  "coloredSentence": "しかも",
+  "lastSentence": "性格もいい",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Cô ấy xinh đẹp và thông minh. Hơn nữa lại tốt tính",
+  "grammar": "a + しかも + b (= そのうえ／さらに)",
+  "description": "Hơn nữa",
+  "note": "Tuần 8, bài 6.2"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d3a"
+  },
+  "id": 195,
+  "firstSentence": "日本の夏は暑いし、",
+  "coloredSentence": "おまけに",
+  "lastSentence": "湿気も多いです",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Mùa hè ở Nhật nóng, đã thế độ ẩm còn cao",
+  "grammar": "a + おまけに + b (= そのうえ／しかも)",
+  "description": "Hơn nữa (văn nói)",
+  "note": "Tuần 8, bài 6.3"
+},{
+  "_id": {
+    "$oid": "610f881e7cd0f08455222d3b"
+  },
+  "id": 196,
+  "firstSentence": "最近は、ペットを飼う家が増えているようです。",
+  "coloredSentence": "ちなみに",
+  "lastSentence": "うちにも犬が１匹と猫が２匹います",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "Dạo gần đây, dường như số lượng nhà nuôi thú cưng đang tăng lên. Nhân đây cũng nói thêm là nhà tôi cũng nuôi 1 con chó và 2 con mèo",
+  "grammar": "a + ちなみに + b",
+  "description": "Tiện thể (Bổ sung thêm thông tin)",
+  "note": "Tuần 8, bài 6.4"
+},{
+  "_id": {
+    "$oid": "61559318f5ec2096298e5048"
+  },
+  "id": 1332,
+  "firstSentence": "",
+  "coloredSentence": "",
+  "lastSentence": "",
+  "coloredSentenceOption": "",
+  "lastSentenceOption": "",
+  "meaning": "1",
+  "grammar": "1",
+  "description": "1",
+  "note": "1z"
+}]

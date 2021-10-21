@@ -1,0 +1,38 @@
+.container-parent{
+    background-color: #6f42c1;
+    height: 50px;
+}
+
+.app-name {
+    float: left;
+    width: 1550px;
+    color: #fee384;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px black;
+}
+
+fa-icon {
+    font-size: 30px;;
+    width: 90px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+fa-icon:hover{
+    color: yellow;
+
+}
+
+.home-icon{
+    text-align: center;
+    margin-left: 40px;
+    float: left;
+}
+
+.logout-icon{
+    text-align: center;
+    margin-right: 60px;
+    float: right;
+}

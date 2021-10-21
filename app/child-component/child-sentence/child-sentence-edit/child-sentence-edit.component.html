@@ -1,0 +1,18 @@
+<td>
+    <input #haha1 type="text">
+    <button (click)='haha(haha1.value)'>test</button>
+    <input #mainSentence style="width: 300px;" 
+            placeholder="Setence" 
+            [(ngModel)]="sentence.mainSentence"
+            (select)="select($event)">
+</td>
+<td><input #meaning placeholder="Meaning" [(ngModel)]="sentence.meaning"></td>
+<td><input #grammar placeholder="Grammar" [(ngModel)]="sentence.grammar"></td>
+<td><input #description placeholder="Description" [(ngModel)]="sentence.description"></td>
+<td><input #note placeholder="Note" [(ngModel)]="sentence.note"></td>
+<td>
+    <button (click)='btnChooseOnclick()' [attr.disabled]="subString ? null: true">Choose</button>
+    <button (click)='clearChosenSentences()'>ClearChosenSentences</button>
+    <button (click)='btnSaveOnclick()'>Save</button>
+    <button (click)='btnCancelOnclick(sentence)'>Cancel</button>
+</td>

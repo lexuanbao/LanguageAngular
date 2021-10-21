@@ -1,0 +1,14 @@
+@use '../helper/style.scss';
+@import '../helper/style.scss';//import to use mixin
+
+.highLight {
+    @extend %high-light
+}
+
+button {
+    @extend %button-style
+}
+
+table {
+    @include table-style(99%, 100px)
+}
