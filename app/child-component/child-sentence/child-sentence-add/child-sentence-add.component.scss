@@ -1,0 +1,15 @@
+@use '../../../helper/style.scss';
+@import '../../../helper/style.scss';//import to use mixin
+
+tr{
+    @extend %table-style-tr;
+}
+
+input{
+    width: 100%;
+    background-color: white;
+}
+
+button{
+    @extend %button-style;
+}

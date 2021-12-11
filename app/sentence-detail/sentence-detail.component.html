@@ -9,34 +9,34 @@
             <th></th>
         </tr>
         <tr>
-            <td style="width: 300px;">
+            <td class="col-md-3" style="width: 16%;" >
                 <span >{{sentence.firstSentence}}</span>
                 <span [ngClass]="sentence.highlightFlag ? 'highLight' : ''">{{sentence.coloredSentence}}</span>
                 <span>{{sentence.lastSentence}}</span>
                 <span [ngClass]="sentence.highlightFlag ? 'highLight' : ''">{{sentence.coloredSentenceOption}}</span>
                 <span>{{sentence.lastSentenceOption}}</span>
             </td>
-            <td style="width: 300px;">
+            <td class="col-md-3" style="width: 16%;">
                 <div *ngIf='sentence.meaningFlag'>
                     {{sentence.meaning}}
                 </div>
             </td>
-            <td style="width: 300px;">
+            <td class="col-md-3" style="width: 16%;">
                 <div *ngIf='sentence.grammarFlag'>
                     {{sentence.grammar}}
                 </div>
             </td>
-            <td style="width: 300px;">
+            <td class="col-md-3" style="width: 16%;">
                 <div *ngIf='sentence.grammarFlag'>
                     {{sentence.description}}
                 </div>
             </td>
-            <td style="width: 300px;">
+            <td class="col-md-3" style="width: 16%;">
                 <div>
                     {{sentence.note}}
                 </div>
             </td>
-            <td>
+            <td class="col-md-3" style="width: 16%;">
                 <button (click)='btnHighlightOnclick()'>Highlight</button>
                 <button (click)='btnMeaningOnclick()'>Meaning</button>
                 <button (click)='btnGrammarOnclick()'>Grammar</button>

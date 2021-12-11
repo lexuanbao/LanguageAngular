@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const sentence = require('../Business/SentenceBusiness');
+const user = require('../Business/UserBusiness')
 
 app.use(cors({ origin: ["http://localhost:4200"], credentials: true }));
 
@@ -25,28 +26,31 @@ app.get('/sentences/detail/:id', async function (req, res) {
 
 app.get('/checkExistSentence/:id', async function (req, res) {
     const id = parseInt(req.params.id);
-    const result = await sentence.isExistId(id);
+    const result = await sentence.isExistSentence(id);
     res.json(result);
 })
 
 app.put('/sentences/detail/:id/edit', async function (req, res) {
     const body = req.body;
-
     const result = await sentence.updatSentence(body);
     res.json(result);
 })
 
 app.post('/sentences/add', async function (req, res) {
     const body = req.body;
-
     const result = await sentence.addSentence(body);
     res.json(result);
 })
 
 app.delete('/sentences/delete/:id', async function (req, res) {
     const id = parseInt(req.params.id);
-
     const result = await sentence.deleteSentence(id);
+    res.json(result);
+})
+
+app.post('/user/login', async function (req, res) {
+    const body = req.body;
+    const result = await user.checkPassWord(body.userName, body.password);
     res.json(result);
 })
 

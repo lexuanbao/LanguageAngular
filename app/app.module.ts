@@ -9,10 +9,12 @@ import { SentenceDetailComponent } from './sentence-detail/sentence-detail.compo
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ChildSentenceAddComponent } from './child-component/child-sentence/child-sentence-add/child-sentence-add.component';
 import { ChildSentenceEditComponent } from './child-component/child-sentence/child-sentence-edit/child-sentence-edit.component';
+import { LoginComponent } from './login/login.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faHome, faDoorOpen, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import { faHome, faDoorOpen, faSearch } from '@fortawesome/free-solid-svg-icons'
         SentenceDetailComponent,
         PageNotFoundComponent,
         ChildSentenceAddComponent,
-        ChildSentenceEditComponent
+        ChildSentenceEditComponent,
+        LoginComponent
     ],
     imports: [
         BrowserModule,
@@ -30,7 +33,8 @@ import { faHome, faDoorOpen, faSearch } from '@fortawesome/free-solid-svg-icons'
         HttpClientModule,
         FormsModule,
         NgxPaginationModule,
-        FontAwesomeModule
+        FontAwesomeModule,
+        NgbModule
     ],
     providers: [],
     bootstrap: [AppComponent]

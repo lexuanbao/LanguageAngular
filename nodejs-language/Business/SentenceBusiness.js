@@ -2,7 +2,7 @@ const DAO = require('../DAO/SentencesDao');
 
 const findAllSentence = DAO.findAllSentenceDAO;
 const findSentenceById = DAO.findSentenceByIdDAO;
-const isExistId = DAO.isExistIdDAO
+const isExistSentence = DAO.isExistSentenceDAO
 const updatSentence = DAO.updatSentenceDAO;
 const deleteSentence = DAO.deleteSentenceDAO;
 const addSentence = async function(sentence) {
@@ -10,4 +10,4 @@ const addSentence = async function(sentence) {
     DAO.addSentenceDao(sentence);
 }
 
-module.exports = {findAllSentence, findSentenceById, isExistId, updatSentence, addSentence, deleteSentence};
+module.exports = {findAllSentence, findSentenceById, isExistSentence, updatSentence, addSentence, deleteSentence};

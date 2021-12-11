@@ -1,0 +1,16 @@
+@use '../helper/style.scss';
+
+.centered_div {
+    width: 400px;
+    height: 140px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -70px;
+    text-align: center;
+ }
+
+button {
+    @extend %button-style;
+}

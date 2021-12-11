@@ -1,0 +1,15 @@
+@use '../../../helper/style.scss';
+
+td {
+    background-color: #EEEEEE;
+    @extend %table-style-cell;
+}
+
+input{
+    width: 100%;
+    background-color: white;
+}
+
+button{
+    @extend %button-style;
+}

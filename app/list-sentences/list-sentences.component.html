@@ -1,122 +1,90 @@
-<div class='.container-fluid'>
-    <div class='header'>
-        <div class="search-control">
-            <select [(ngModel)] = "searchType">
-                <option *ngFor="let item of listSearchType" [ngValue]="item.value">{{item.name}}</option>
-            </select>
-            <input #searchString (keyup.enter)='searchButtonOnClick(searchString.value)'>
-            <button><fa-icon (click)='searchButtonOnClick(searchString.value)' [icon]="['fas', 'search']"></fa-icon></button>
+<div class='header'>
+    <!-- <input  [innerHtml]="test" (select)="select($event)" value='<mark>haha</mark>'> -->
+    <div class="chosen-control">
+        <div>
+            sentenceChosing:
+            <span class="chosen"> {{sentenceService.subString}}</span>
         </div>
-        <!-- <input  [innerHtml]="test" (select)="select($event)" value='<mark>haha</mark>'> -->
-        <div class="chosen-control">
-            <div>
-                sentenceChosing:
-                <span class="chosen"> {{subString}}</span>
-            </div>
-            <div *ngIf='chosenSentence.length != 0'>
-                firstChosen:
-                <span class="chosen"> {{chosenSentence[0].subString}}</span>
-            </div>
-        
-            <div *ngIf='chosenSentence.length > 1'>
-                secondChosen:
-                <span class="chosen">{{chosenSentence[1].subString}}</span>
-            </div>
+        <div *ngIf='sentenceService.chosenSentence.length != 0'>
+            firstChosen:
+            <span class="chosen"> {{sentenceService.chosenSentence[0].subString}}</span>
+        </div>
+    
+        <div *ngIf='sentenceService.chosenSentence.length > 1'>
+            secondChosen:
+            <span class="chosen">{{sentenceService.chosenSentence[1].subString}}</span>
         </div>
     </div>
-    
-    <div *ngIf='sentences.length != 0'>
-        <table class="mt-3 mb-3">
-            <tr>
-                <th>Setence</th>
-                <th>Meaning</th>
-                <th>Grammar</th>
-                <th>Description</th>
-                <th>Note</th>
-                <th></th>
-            </tr>
-            <ng-container *ngFor='let item of sentences | paginate: { itemsPerPage: 15, currentPage: p }'>
-                <tr *ngIf="!item.editFlag; else elseBlock" >
-                    <td style="width: 300px;">
-                        <p >{{item.mainSentence}}</p>
+    <div class="search-control">
+        <select [(ngModel)] = "searchType">
+            <option *ngFor="let item of listSearchType" [ngValue]="item.value">{{item.name}}</option>
+        </select>
+        <input #searchString (keyup.enter)='searchButtonOnClick(searchString.value)'>
+        <button><fa-icon (click)='searchButtonOnClick(searchString.value)' [icon]="['fas', 'search']"></fa-icon></button>
+    </div>
+</div>
 
-                        <a routerLink="detail/{{item.id}}">
-                            <span>{{item.firstSentence}}</span>
-                            <span [ngClass]="item.highlightFlag ? 'highLight' : ''">{{item.coloredSentence}}</span>
-                            <span>{{item.lastSentence}}</span>
-                            <!-- sentence option region -->
-                            <span [ngClass]="item.highlightFlag ? 'highLight' : ''">{{item.coloredSentenceOption}}</span>
-                            <span>{{item.lastSentenceOption}}</span>
-                        </a>
-                    </td>
-                    <td style="width: 300px;">
-                        <div *ngIf='item.meaningFlag'>
-                            {{item.meaning}}
-                        </div>
-                    </td>
-                    <td style="width: 300px;">
-                        <div *ngIf='item.grammarFlag'>
-                            {{item.grammar}}
-                        </div>
-                    </td>
-                    <td style="width: 300px;">
-                        <div *ngIf='item.grammarFlag'>
-                            {{item.description}}
-                        </div>
-                    </td>
-                    <td style="width: 300px;">
-                        <div>
-                            {{item.note}}
-                        </div>
-                    </td>
-                    <td>
-                        <button (click)='btnHighlightOnclick(item)'>Highlight</button>
-                        <button (click)='btnMeaningOnclick(item)'>Meaning</button>
-                        <button (click)='btnGrammarOnclick(item)'>Grammar</button>
-                        <button (click)='btnEditOnclick(item)'>Edit</button>
-                        <button (click)='btnDeleteOnclick(item.id)'>Delete</button>
-                    </td>
-                </tr>
-                <!-- edit region -->
-                <ng-template #elseBlock>
-                    <td>
-                        <input #sentence
-                                placeholder="Setence" 
-                                value="{{item.firstSentence}}{{item.coloredSentence}}{{item.lastSentence}}{{item.coloredSentenceOption}}{{item.lastSentenceOption}}"
-                                (select)="select($event)">
-                    </td>
-                    <td><input #meaning placeholder="Meaning" value="{{item.meaning}}" ></td>
-                    <td><input #grammar placeholder="Grammar" value="{{item.grammar}}"></td>
-                    <td><input #description placeholder="Description" value="{{item.description}}"></td>
-                    <td><input #note placeholder="Note" value="{{item.note}}"></td>
-                    <td>
-                        <button (click)='btnChooseOnclick()' [attr.disabled]="subString ? null: true">Choose</button>
-                        <button (click)='clearChosenSentences()'>ClearChosenSentences</button>
-                        <button (click)='btnSaveOnclick(item.id, sentence.value, meaning.value, grammar.value, description.value, note.value, item.editFlag)'>Save</button>
-                        <button (click)='btnCancelOnclick(item)'>Cancel</button>
-                    </td>
-                    <tr child-sentence-edit [sentence]='item' (changeChild)="changeParent($event)"></tr>
-                </ng-template>
-            </ng-container>
-            <!-- add region -->
-            <tr *ngIf='addFlag'>
-                <td><input #setenceEdit style="width: 300px;" placeholder="Setence" (select)="select($event)"></td>
-                <td><input #meaningEdit placeholder="Meaning"></td>
-                <td><input #grammarEdit placeholder="Grammar"></td>
-                <td><input #descriptionEdit placeholder="Description"></td>
-                <td><input #noteEdit placeholder="Note"></td>
-                <td>
-                    <button (click)='btnChooseOnclick()' [attr.disabled]="subString ? null: true">Choose</button>
-                    <button (click)='clearChosenSentences()'>ClearChosenSentences</button>
-                    <button (click)='btnAddSaveOnClick(setenceEdit.value, meaningEdit.value, grammarEdit.value, descriptionEdit.value, noteEdit.value)'>Save</button>
-                    <button (click)='btnAddCancelOnClick()'>Cancel</button>
+<div *ngIf='sentenceService.serviceSentences.length != 0'>
+    <table class="mt-3 mb-3">
+        <tr>
+            <th>Setence</th>
+            <th>Meaning</th>
+            <th>Grammar</th>
+            <th>Description</th>
+            <th>Note</th>
+            <th></th>
+        </tr>
+        <ng-container *ngFor='let item of sentenceService.serviceSentences | paginate: { itemsPerPage: 15, currentPage: p }'>
+            <tr *ngIf="!item.editFlag; else elseBlock" >
+                <td style="width: 16%;">
+                    <a routerLink="detail/{{item.id}}">
+                        <span>{{item.firstSentence}}</span>
+                        <span [ngClass]="item.highlightFlag ? 'highLight' : ''">{{item.coloredSentence}}</span>
+                        <span>{{item.lastSentence}}</span>
+                        <!-- sentence option region -->
+                        <span [ngClass]="item.highlightFlag ? 'highLight' : ''">{{item.coloredSentenceOption}}</span>
+                        <span>{{item.lastSentenceOption}}</span>
+                    </a>
+                </td>
+                <td style="width: 16%;">
+                    <div *ngIf='item.meaningFlag'>
+                        {{item.meaning}}
+                    </div>
+                </td>
+                <td style="width: 16%;">
+                    <div *ngIf='item.grammarFlag'>
+                        {{item.grammar}}
+                    </div>
+                </td>
+                <td style="width: 16%;">
+                    <div *ngIf='item.grammarFlag'>
+                        {{item.description}}
+                    </div>
+                </td>
+                <td style="width: 16%;">
+                    <div>
+                        {{item.note}}
+                    </div>
+                </td>
+                <td style="width: 16%;">
+                    <button (click)='btnHighlightOnclick(item)'>Highlight</button>
+                    <button (click)='btnMeaningOnclick(item)'>Meaning</button>
+                    <button (click)='btnGrammarOnclick(item)'>Grammar</button>
+                    <button (click)='btnEditOnclick(item)'>Edit</button>
+                    <button (click)='btnDeleteOnclick(item.id)'>Delete</button>
                 </td>
             </tr>
-        </table>
-    </div>
-    <button (click)='btnShuffleOnclick()'>Shuffle</button>
-    <button (click)='btnAddOnClick()'>Add</button>
-    <div *ngIf='sentences.length != 0' style="text-align: center;">
-        <pagination-controls (pageChange)="p = $event"></pagination-controls>
-    </div>
+            <!-- edit region -->
+            <ng-template #elseBlock>
+                <tr child-sentence-edit [sentence]='item'></tr>
+            </ng-template>
+        </ng-container>
+        <!-- add region -->
+        <tr *ngIf='sentenceService.addFlag' child-sentence-add></tr>
+    </table>
+</div>
+<button (click)='btnShuffleOnclick()'>Shuffle</button>
+<button (click)='btnAddOnClick()'>Add</button>
+<div *ngIf='sentenceService.serviceSentences.length != 0' style="text-align: center;">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </div>

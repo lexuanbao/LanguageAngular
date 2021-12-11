@@ -19,7 +19,7 @@ input{
 .header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
     top: 0;
-    overflow: auto; //Fix float property
+    // overflow: auto; //Fix float property
     height: 75px;
 
     .search-control{
@@ -35,6 +35,13 @@ input{
             cursor: pointer;
         }
     }
+
+    @media screen and (max-width: 600px) {
+        .search-control {
+          float: left;
+          margin-left: 6px;
+        }
+      }
 
     .chosen-control{
         float: left;

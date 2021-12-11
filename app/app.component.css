@@ -5,7 +5,7 @@
 
 .app-name {
     float: left;
-    width: 1550px;
+    width: 82%;
     color: #fee384;
     text-align: center;
     font-size: 25px;
@@ -14,7 +14,7 @@
 
 fa-icon {
     font-size: 30px;;
-    width: 90px;
+    width: 7%;
     color: white;
     cursor: pointer;
     transition: color 0.5s;
@@ -27,12 +27,26 @@ fa-icon:hover{
 
 .home-icon{
     text-align: center;
-    margin-left: 40px;
+    margin-left: 2%;
     float: left;
 }
 
 .logout-icon{
     text-align: center;
-    margin-right: 60px;
+    margin-right: 2%;
     float: right;
+}
+
+.container-parent{
+    background-color: #6f42c1;
+    height: 50px;
+}
+
+.app-name {
+    float: left;
+    width: 80%;
+    color: #fee384;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px black;
 }

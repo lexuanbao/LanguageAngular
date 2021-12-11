@@ -77,7 +77,7 @@ async function findSentenceByIdDAO(_id){
  * @param {*} _id 
  * @returns 
  */
-async function isExistIdDAO(_id){
+async function isExistSentenceDAO(_id){
     try {
         await dbHandler.openConection();
 
@@ -168,4 +168,4 @@ async function deleteSentenceDAO(_id){
     }
 }
 
-module.exports = {findAllSentenceDAO, findSentenceByIdDAO, isExistIdDAO, updatSentenceDAO, addSentenceDao, getMaxIdSentenceDAO, deleteSentenceDAO}
+module.exports = {findAllSentenceDAO, findSentenceByIdDAO, isExistSentenceDAO, updatSentenceDAO, addSentenceDao, getMaxIdSentenceDAO, deleteSentenceDAO}

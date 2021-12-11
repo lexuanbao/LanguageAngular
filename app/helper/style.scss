@@ -3,6 +3,22 @@
     border:1px solid white;
 }
 
+%table-style-tr{
+    width:100%;
+    th{
+        height: 30px;
+        text-align: center;
+        color:white;
+        text-decoration: none;
+        background-color: black;
+        @extend %table-style-cell;
+    }
+    td {
+        background-color: #EEEEEE;
+        @extend %table-style-cell;
+    }
+}
+
 @mixin table-style ($width, $height){
     margin-left: 10px;
     width: $width;
@@ -11,19 +27,7 @@
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
     tr{
-        width:100%;
-        th{
-            height: 30px;
-            text-align: center;
-            color:white;
-            text-decoration: none;
-            background-color: black;
-            @extend %table-style-cell;
-        }
-        td {
-            background-color: #EEEEEE;
-            @extend %table-style-cell;
-        }
+        @extend %table-style-tr;
     }
 
     a{
@@ -37,11 +41,6 @@
         &:active{
             color: deepskyblue;
         }
-    }
-    
-    input{
-        width: 290px;
-        background-color: white;
     }
 }
 

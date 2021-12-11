@@ -1,6 +1,6 @@
-<div class="container-parent container-fluid">
-        <fa-icon (click)='btnHomeOnclick()'  class="mt-1 home-icon"  [icon]="['fas', 'home']"></fa-icon>
+<div *ngIf="loginService.isLoged" class="container-parent container-fluid">
+        <fa-icon (click)="backHome()"  class="home-icon"  [icon]="['fas', 'home']"></fa-icon>
         <div class="app-name">Language learning app</div>
-        <fa-icon (click)='btnHomeOnclick()'  class="mt-1 logout-icon"  [icon]="['fas', 'door-open']"></fa-icon>
+        <fa-icon (click)="logout()"  class="logout-icon"  [icon]="['fas', 'door-open']"></fa-icon>
 </div>
 <router-outlet></router-outlet>

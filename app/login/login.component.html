@@ -1,0 +1,20 @@
+<div class='centered_div'>
+    <h1>WellCome</h1>
+    <table style="width: 100%; height: 100%;">
+        <tr>
+            <td>UserName:</td>
+            <td><input #userName type="text"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input #password type="password" (keyup.enter)="login(userName.value, password.value)"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button (click)="login(userName.value, password.value)">Login</button>
+                <button>Register</button>
+            </td>
+        </tr>
+    </table>
+</div>

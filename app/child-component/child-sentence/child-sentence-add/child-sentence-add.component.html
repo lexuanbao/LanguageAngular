@@ -1,1 +1,11 @@
-child sentence add
+<td><input #setenceEdit style="width: 300px;" placeholder="Setence" (select)="select($event)"></td>
+<td><input #meaningEdit placeholder="Meaning"></td>
+<td><input #grammarEdit placeholder="Grammar"></td>
+<td><input #descriptionEdit placeholder="Description"></td>
+<td><input #noteEdit placeholder="Note"></td>
+<td>
+    <button (click)='btnChooseOnclick()' [attr.disabled]="sentenceService.subString ? null: true">Choose</button>
+    <button (click)='clearChosenSentences()'>ClearChosenSentences</button>
+    <button (click)='btnSaveOnClick(setenceEdit.value, meaningEdit.value, grammarEdit.value, descriptionEdit.value, noteEdit.value)'>Save</button>
+    <button (click)='btnCancelOnClick()'>Cancel</button>
+</td>

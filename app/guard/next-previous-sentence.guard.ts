@@ -8,7 +8,7 @@ import { SentenceService } from '../service/sentence.service';
   providedIn: 'root'
 })
 /**
- * Gaurd that prevents invalid id in detail sentence
+ * Guard that prevents invalid id in detail sentence
  */
 export class NextPreviousSentenceGuard implements CanActivate {
 

@@ -16,7 +16,8 @@ export class SentenceEntity {
     grammarFlag?: boolean;
     meaningFlag?: boolean;
     editFlag?: boolean;
-    mainSentence: string;
+    //Property support for child-sentence
+    mainSentence?: string;
 
     constructor(
         id: number = 1,
@@ -33,6 +34,7 @@ export class SentenceEntity {
         grammarFlag: boolean = false,
         meaningFlag: boolean = false,
         editFlag: boolean = false,
+        mainSentence: string = ""
     ){
         this.id = id;
         this.firstSentence = firstSentence;
@@ -48,5 +50,10 @@ export class SentenceEntity {
         this.grammarFlag = grammarFlag;
         this.meaningFlag = meaningFlag;
         this.editFlag = editFlag;
+    }
+    static setMainSentence(object) {
+        object.mainSentence = object.firstSentence + object.coloredSentence
+                            + object.lastSentence + object.coloredSentenceOption
+                            + object.lastSentenceOption;
     }
 }
